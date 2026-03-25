@@ -151,16 +151,16 @@ html.lenis, html.lenis body { height: auto; }
   left: 0;
   right: 0;
   z-index: 200;
-  padding: 1.25rem 1.5rem 2.5rem;
+  padding: 1.5rem 1.5rem 2rem;
   transition: all 0.5s ease;
   --nav-color: oklch(1 0 0 / 0.6);
   --nav-color-strong: oklch(1 0 0 / 0.92);
   --nav-color-hover: oklch(1 0 0 / 1);
-  background: linear-gradient(to bottom, oklch(0.12 0.03 160 / 0.75), transparent);
+  background: transparent;
 }
 
 @media (min-width: 1024px) {
-  [data-nav] { padding: 1.5rem 2.5rem 3rem; }
+  [data-nav] { padding: 1.75rem 2.5rem 2.5rem; }
 }
 
 [data-nav].is-scrolled {
@@ -177,16 +177,23 @@ html.lenis, html.lenis body { height: auto; }
 }
 
 .nav-link {
-  position: relative;
   color: var(--nav-color);
   font-size: 0.8125rem;
   font-weight: 400;
   letter-spacing: 0.03em;
-  transition: color 0.3s ease;
   text-decoration: none;
+  padding-bottom: 2px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: color 0.3s ease, background-size 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.nav-link:hover { color: var(--nav-color-hover); }
+.nav-link:hover {
+  color: var(--nav-color-hover);
+  background-size: 100% 1px;
+}
 
 .nav-logo {
   font-family: var(--font-serif);
@@ -253,7 +260,7 @@ html.lenis, html.lenis body { height: auto; }
 .hero {
   display: grid;
   grid-template-columns: 1fr;
-  min-height: 100svh;
+  min-height: 95svh;
 }
 
 @media (min-width: 1024px) {
@@ -264,17 +271,17 @@ html.lenis, html.lenis body { height: auto; }
   background: var(--color-grove);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   padding: clamp(2rem, 5vw, 4rem);
   padding-top: 6rem;
-  min-height: 55svh;
+  min-height: 45svh;
   position: relative;
 }
 
 @media (min-width: 1024px) {
   .hero__content {
-    min-height: 100svh;
-    padding: 3rem clamp(2.5rem, 4vw, 4.5rem) 3.5rem;
+    min-height: 95svh;
+    padding: 5.5rem clamp(2.5rem, 4vw, 4.5rem) 3.5rem;
   }
 }
 
@@ -285,7 +292,7 @@ html.lenis, html.lenis body { height: auto; }
 }
 
 @media (min-width: 1024px) {
-  .hero__media { min-height: 100svh; }
+  .hero__media { min-height: 95svh; }
 }
 
 .hero__title {
@@ -322,7 +329,7 @@ html.lenis, html.lenis body { height: auto; }
 
 @media (min-width: 1024px) {
   .split__media { min-height: 100%; }
-  .split { min-height: 85svh; }
+  .split { min-height: 95svh; }
 }
 
 .split__body {
@@ -346,7 +353,7 @@ html.lenis, html.lenis body { height: auto; }
 }
 
 .hscroll-card {
-  width: clamp(280px, 30vw, 380px);
+  width: clamp(260px, 32vw, 380px);
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
@@ -448,6 +455,16 @@ html.lenis, html.lenis body { height: auto; }
   height: 100%;
   object-fit: cover;
   display: block;
+  filter: contrast(1.04) saturate(1.08);
+}
+
+/* Shadow on image containers */
+[data-img-reveal],
+.hscroll-card__img,
+.split__media,
+.card-img {
+  box-shadow: 0 8px 30px oklch(0.15 0.02 160 / 0.15),
+              0 2px 8px oklch(0.15 0.02 160 / 0.08);
 }
 
 .text-balance { text-wrap: balance; }
