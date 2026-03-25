@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="no" class="lenis">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gartnertips — Mandal Hage og Anlegg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js" defer></script>
+</head>
+<body class="grain">
+
+  <!-- NAV -->
+  <nav data-nav class="is-scrolled">
+    <div class="flex items-center justify-between max-w-[94rem] mx-auto">
+      <a href="/" class="nav-logo" data-hover><img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" class="nav-logo__white" height="32"><img src="assets/logo-dark.png" alt="Mandal Hage og Anlegg" class="nav-logo__dark" height="32"></a>
+      <div class="hidden lg:flex items-center gap-10">
+        <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
+        <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
+        <a href="anlegg.html" class="nav-link" data-hover>Anlegg</a>
+        <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
+        <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
+        <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
+      </div>
+      <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div data-mobile-menu>
+    <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
+    <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
+    <a href="anlegg.html" class="mobile-link">Anlegg</a>
+    <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
+    <a href="kafe.html" class="mobile-link">Kafé</a>
+    <a href="om-oss.html" class="mobile-link">Om oss</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <header class="pt-40 lg:pt-52 pb-16">
+    <div class="wrap">
+      <span class="eyebrow" data-fade>Fra journalen</span>
+      <h1 class="text-display mt-4" data-text-reveal><span class="line-reveal"><span>Gartnertips</span></span></h1>
+      <p class="text-body max-w-[32rem] mt-6 font-light" data-fade>Råd og inspirasjon fra våre gartnere</p>
+    </div>
+  </header>
+
+  <!-- FEATURED ARTICLE -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap--wide">
+
+      <!-- Featured (Article 1) -->
+      <article data-fade>
+        <a href="#" class="grid md:grid-cols-2 gap-8 lg:gap-16 items-center" data-hover>
+          <div class="overflow-hidden" style="aspect-ratio: 3/2;">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710855367344-7SX3Q01TWRCB5X7WJQZE/Gronnplanter-7.jpg"
+              alt="Lettstelte grønnplanter"
+              class="w-full h-full object-cover"
+              data-img-reveal
+              loading="lazy"
+            >
+          </div>
+          <div>
+            <span class="eyebrow">Inneplanter</span>
+            <h2 class="font-serif text-2xl lg:text-4xl mt-4 leading-tight">Lettstelte grønnplanter som tåler lite lys</h2>
+            <time class="block text-sm mt-4 font-light" style="color: oklch(1 0 0 / 0.4);" datetime="2024-03-19">19.03.2024</time>
+          </div>
+        </a>
+      </article>
+
+      <!-- Articles Grid (Articles 2–7) -->
+      <div class="grid md:grid-cols-3 gap-8 lg:gap-10 mt-20 lg:mt-28" data-stagger>
+
+        <!-- Article 2 -->
+        <article>
+          <a href="#" class="block" data-hover>
+            <div class="overflow-hidden" style="aspect-ratio: 4/5;">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710854559484-V8P96V2F5CEXYO1R14E6/hagemilj%C3%B8+heller+busker2+%281%29.jpg"
+                alt="Hvilken hekk bør du velge?"
+                class="w-full h-full object-cover"
+                data-img-reveal
+                loading="lazy"
+              >
+            </div>
+            <span class="eyebrow block mt-5">Uteplanter</span>
+            <h3 class="font-serif text-lg lg:text-xl mt-2 leading-snug">Velg hekkplanter etter funksjon</h3>
+            <time class="block text-sm mt-2 font-light" style="color: oklch(1 0 0 / 0.4);" datetime="2024-03-19">19.03.2024</time>
+          </a>
+        </article>
+
+        <!-- Article 3 -->
+        <article>
+          <a href="#" class="block" data-hover>
+            <div class="overflow-hidden" style="aspect-ratio: 4/5;">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710852090903-RONJ1NA4OCUFTK3Y3Q08/Stauder_2532.JPG"
+                alt="Dette bør du vite før du setter i gang med hagen din!"
+                class="w-full h-full object-cover"
+                data-img-reveal
+                loading="lazy"
+              >
+            </div>
+            <span class="eyebrow block mt-5">Guide</span>
+            <h3 class="font-serif text-lg lg:text-xl mt-2 leading-snug">En liten ABC med ord og uttrykk</h3>
+            <time class="block text-sm mt-2 font-light" style="color: oklch(1 0 0 / 0.4);" datetime="2024-03-19">19.03.2024</time>
+          </a>
+        </article>
+
+        <!-- Article 4 -->
+        <article>
+          <a href="#" class="block" data-hover>
+            <div class="overflow-hidden" style="aspect-ratio: 4/5;">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710846751580-UZKW1YLDAFYA3SSS2H3U/IMG_9040+%281%29+kopi.jpg"
+                alt="Hage i krukke"
+                class="w-full h-full object-cover"
+                data-img-reveal
+                loading="lazy"
+              >
+            </div>
+            <span class="eyebrow block mt-5">Guide</span>
+            <h3 class="font-serif text-lg lg:text-xl mt-2 leading-snug">En guide til frodig krukkehage</h3>
+            <time class="block text-sm mt-2 font-light" style="color: oklch(1 0 0 / 0.4);" datetime="2024-03-19">19.03.2024</time>
+          </a>
+        </article>
+
+        <!-- Article 5 -->
+        <article>
+          <a href="#" class="block" data-hover>
+            <div class="overflow-hidden" style="aspect-ratio: 4/5;">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710844019004-EMFTXQ1OM7DPV6KX7EVE/Lavendel.jpg"
+                alt="Stauder til hele hagen, hele sesongen!"
+                class="w-full h-full object-cover"
+                data-img-reveal
+                loading="lazy"
+              >
+            </div>
+            <span class="eyebrow block mt-5">Uteplanter</span>
+            <h3 class="font-serif text-lg lg:text-xl mt-2 leading-snug">Flerårige blomsterplanter</h3>
+            <time class="block text-sm mt-2 font-light" style="color: oklch(1 0 0 / 0.4);" datetime="2024-03-19">19.03.2024</time>
+          </a>
+        </article>
+
+        <!-- Article 6 -->
+        <article>
+          <a href="#" class="block" data-hover>
+            <div class="overflow-hidden" style="aspect-ratio: 4/5;">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710152529344-HRMN7LC0VXBA033KEOOC/Inngangsparti.jpg"
+                alt="Hagesesongen starter nå!"
+                class="w-full h-full object-cover"
+                data-img-reveal
+                loading="lazy"
+              >
+            </div>
+            <span class="eyebrow block mt-5">Sesong</span>
+            <h3 class="font-serif text-lg lg:text-xl mt-2 leading-snug">De første spirene har begynt å titte frem</h3>
+            <time class="block text-sm mt-2 font-light" style="color: oklch(1 0 0 / 0.4);" datetime="2024-03-05">05.03.2024</time>
+          </a>
+        </article>
+
+        <!-- Article 7 -->
+        <article>
+          <a href="#" class="block" data-hover>
+            <div class="overflow-hidden" style="aspect-ratio: 4/5;">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710152377117-62DG6VOYGAPG8DCVJCO8/Prydkattemynte.jpg"
+                alt="Våre beste stauder"
+                class="w-full h-full object-cover"
+                data-img-reveal
+                loading="lazy"
+              >
+            </div>
+            <span class="eyebrow block mt-5">Uteplanter</span>
+            <h3 class="font-serif text-lg lg:text-xl mt-2 leading-snug">Anbefalinger for lang blomstringstid</h3>
+            <time class="block text-sm mt-2 font-light" style="color: oklch(1 0 0 / 0.4);" datetime="2023-05-10">10.05.2023</time>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-28 lg:py-40">
+    <div class="wrap">
+      <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+        <div class="md:col-span-4">
+          <img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" style="height: 100px; width: auto; opacity: 0.85;">
+          <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Hagesenter, anlegg og opplevelse i Mandal. Del av Hageland-kjeden.</p>
+        </div>
+        <div class="md:col-span-2 md:col-start-7"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span><nav class="space-y-2 text-sm"><a href="hagesenter.html" class="block" data-hover>Hagesenter</a><a href="hagedesign.html" class="block" data-hover>Hagedesign</a><a href="hagemobler.html" class="block" data-hover>Hagemøbler</a><a href="anlegg.html" class="block" data-hover>Anlegg</a></nav></div>
+        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span><nav class="space-y-2 text-sm"><a href="kafe.html" class="block" data-hover>Kafé</a><a href="gartnertips.html" class="block" data-hover>Gartnertips</a><a href="om-oss.html" class="block" data-hover>Om oss</a><a href="bedrift.html" class="block" data-hover>Bedrift</a></nav></div>
+        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span><nav class="space-y-2 text-sm"><a href="https://www.instagram.com/hagelandoddernes/" target="_blank" rel="noopener" class="block" data-hover>Instagram</a><a href="https://www.facebook.com/oddernesgartneri/" target="_blank" rel="noopener" class="block" data-hover>Facebook</a></nav></div>
+      </div>
+      <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);"><p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Mandal Hage og Anlegg AS</p><a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

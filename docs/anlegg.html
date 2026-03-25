@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="no" class="lenis">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anlegg — Mandal Hage og Anlegg</title>
+  <meta name="description" content="Profesjonelle anleggsgartner-tjenester i Mandal og omegn. Hageanlegg, beplantning, steinarbeid, terrasser og vedlikehold.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js" defer></script>
+</head>
+<body class="grain">
+
+<!-- ===== NAVBAR ===== -->
+<nav data-nav class="is-scrolled">
+  <div class="flex items-center justify-between max-w-[94rem] mx-auto">
+    <a href="/" class="nav-logo" data-hover><img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" class="nav-logo__white" height="32"><img src="assets/logo-dark.png" alt="Mandal Hage og Anlegg" class="nav-logo__dark" height="32"></a>
+    <div class="hidden lg:flex items-center gap-10">
+      <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
+      <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
+      <a href="anlegg.html" class="nav-link" data-hover>Anlegg</a>
+      <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
+      <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
+      <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
+    </div>
+    <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+    </button>
+  </div>
+</nav>
+<div data-mobile-menu>
+  <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
+  <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
+  <a href="anlegg.html" class="mobile-link">Anlegg</a>
+  <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
+  <a href="kafe.html" class="mobile-link">Kafé</a>
+  <a href="om-oss.html" class="mobile-link">Om oss</a>
+</div>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="relative overflow-hidden" style="height: 50vh; min-height: 400px;">
+  <img
+    src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/380259de-b6e2-4f5f-a4a2-2a3d2e3017dc/104136111_2837085223185790_557077500434405589_n.jpg"
+    alt="Profesjonelt hageanlegg utført av Mandal Hage og Anlegg"
+    class="img-cover"
+    data-img-reveal
+  >
+  <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.02 160 / 0.7) 0%, transparent 60%);"></div>
+  <div class="absolute bottom-0 left-0 right-0 pb-12 lg:pb-16">
+    <div class="wrap">
+      <span class="eyebrow block mb-4" style="color: oklch(1 0 0 / 0.6);" data-fade>Profesjonelle uterom</span>
+      <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl" style="color: oklch(1 0 0 / 0.95);" data-fade="0.1">Anleggsgartner</h1>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTRO SPLIT ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+      <div class="md:col-span-4">
+        <h2 class="font-serif text-3xl md:text-4xl leading-tight" data-text-reveal>
+          <span class="line-reveal"><span>Fra idé til</span></span>
+          <span class="line-reveal"><span>ferdig anlegg</span></span>
+        </h2>
+      </div>
+      <div class="md:col-span-6 md:col-start-7">
+        <p class="text-base md:text-lg leading-relaxed font-light" style="color: var(--color-ink);" data-fade>
+          Vi tilbyr profesjonelle anleggsgartner-tjenester for private og næringskunder i Mandal og omegn. Med over 20 års erfaring i bransjen skaper vi uterom som varer — fra enkle beplantninger til komplette hageanlegg.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES LIST ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-6 mb-16">
+      <div class="md:col-span-5">
+        <span class="eyebrow block mb-4" data-fade>Tjenester</span>
+        <h2 class="font-serif text-3xl md:text-4xl leading-tight" data-text-reveal>
+          <span class="line-reveal"><span>Det vi</span></span>
+          <span class="line-reveal"><span>gjør best</span></span>
+        </h2>
+      </div>
+    </div>
+
+    <div data-stagger>
+
+      <!-- 01 Hageanlegg -->
+      <div class="grid md:grid-cols-12 gap-6 py-8 items-baseline" style="border-top: 1px solid oklch(0.22 0.02 160 / 0.1);">
+        <div class="md:col-span-1">
+          <span class="text-sm font-light" style="color: oklch(0.22 0.02 160 / 0.3);">01</span>
+        </div>
+        <div class="md:col-span-4">
+          <h3 class="font-serif text-xl md:text-2xl">Hageanlegg</h3>
+        </div>
+        <div class="md:col-span-5 md:col-start-7">
+          <p class="text-sm md:text-base font-light leading-relaxed" style="color: oklch(0.22 0.02 160 / 0.6);">Komplette hageanlegg fra planlegging til ferdig resultat. Terrasser, murer, beplantning og helhetlig design.</p>
+        </div>
+      </div>
+
+      <!-- 02 Beplantning -->
+      <div class="grid md:grid-cols-12 gap-6 py-8 items-baseline" style="border-top: 1px solid oklch(0.22 0.02 160 / 0.1);">
+        <div class="md:col-span-1">
+          <span class="text-sm font-light" style="color: oklch(0.22 0.02 160 / 0.3);">02</span>
+        </div>
+        <div class="md:col-span-4">
+          <h3 class="font-serif text-xl md:text-2xl">Beplantning</h3>
+        </div>
+        <div class="md:col-span-5 md:col-start-7">
+          <p class="text-sm md:text-base font-light leading-relaxed" style="color: oklch(0.22 0.02 160 / 0.6);">Profesjonell beplantning av bed, hekker og trær. Vi velger planter tilpasset jordsmonn, lysforhold og ditt vedlikeholdsnivå.</p>
+        </div>
+      </div>
+
+      <!-- 03 Steinarbeid -->
+      <div class="grid md:grid-cols-12 gap-6 py-8 items-baseline" style="border-top: 1px solid oklch(0.22 0.02 160 / 0.1);">
+        <div class="md:col-span-1">
+          <span class="text-sm font-light" style="color: oklch(0.22 0.02 160 / 0.3);">03</span>
+        </div>
+        <div class="md:col-span-4">
+          <h3 class="font-serif text-xl md:text-2xl">Steinarbeid</h3>
+        </div>
+        <div class="md:col-span-5 md:col-start-7">
+          <p class="text-sm md:text-base font-light leading-relaxed" style="color: oklch(0.22 0.02 160 / 0.6);">Natursteinmurer, støttemurer, trapper og gangveier. Håndverksmessig utførelse med materialer som varer.</p>
+        </div>
+      </div>
+
+      <!-- 04 Terrasser -->
+      <div class="grid md:grid-cols-12 gap-6 py-8 items-baseline" style="border-top: 1px solid oklch(0.22 0.02 160 / 0.1);">
+        <div class="md:col-span-1">
+          <span class="text-sm font-light" style="color: oklch(0.22 0.02 160 / 0.3);">04</span>
+        </div>
+        <div class="md:col-span-4">
+          <h3 class="font-serif text-xl md:text-2xl">Terrasser</h3>
+        </div>
+        <div class="md:col-span-5 md:col-start-7">
+          <p class="text-sm md:text-base font-light leading-relaxed" style="color: oklch(0.22 0.02 160 / 0.6);">Terrasser i tre, kompositt eller stein. Prosjektering og bygging tilpasset din tomt og dine ønsker.</p>
+        </div>
+      </div>
+
+      <!-- 05 Vedlikehold -->
+      <div class="grid md:grid-cols-12 gap-6 py-8 items-baseline" style="border-top: 1px solid oklch(0.22 0.02 160 / 0.1); border-bottom: 1px solid oklch(0.22 0.02 160 / 0.1);">
+        <div class="md:col-span-1">
+          <span class="text-sm font-light" style="color: oklch(0.22 0.02 160 / 0.3);">05</span>
+        </div>
+        <div class="md:col-span-4">
+          <h3 class="font-serif text-xl md:text-2xl">Vedlikehold</h3>
+        </div>
+        <div class="md:col-span-5 md:col-start-7">
+          <p class="text-sm md:text-base font-light leading-relaxed" style="color: oklch(0.22 0.02 160 / 0.6);">Sesongbasert vedlikehold av hage og grøntanlegg. Klipping, beskjæring, gjødsling og vinterklargjøring.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS SPLIT ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-16 items-center">
+      <div class="md:col-span-6">
+        <div class="overflow-hidden rounded-sm aspect-[4/5]" data-img-reveal>
+          <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710854559484-V8P96V2F5CEXYO1R14E6/hagemilj%C3%B8+heller+busker2+%281%29.jpg" alt="Hageanlegg med steinlegging og beplantning" class="img-cover" loading="lazy">
+        </div>
+      </div>
+      <div class="md:col-span-5 md:col-start-8">
+        <span class="eyebrow block mb-6" data-fade>Slik jobber vi</span>
+        <div class="space-y-8" data-stagger>
+          <div>
+            <p class="font-serif text-lg">1. Befaring og samtale</p>
+            <p class="text-sm font-light leading-relaxed mt-2" style="color: oklch(0.22 0.02 160 / 0.6);">Vi kommer hjem til deg for å se på mulighetene.</p>
+          </div>
+          <div>
+            <p class="font-serif text-lg">2. Tilbud</p>
+            <p class="text-sm font-light leading-relaxed mt-2" style="color: oklch(0.22 0.02 160 / 0.6);">Du får et detaljert tilbud basert på dine ønsker og tomtens forutsetninger.</p>
+          </div>
+          <div>
+            <p class="font-serif text-lg">3. Utførelse</p>
+            <p class="text-sm font-light leading-relaxed mt-2" style="color: oklch(0.22 0.02 160 / 0.6);">Vårt team utfører arbeidet med fagmessig presisjon.</p>
+          </div>
+          <div>
+            <p class="font-serif text-lg">4. Overlevering</p>
+            <p class="text-sm font-light leading-relaxed mt-2" style="color: oklch(0.22 0.02 160 / 0.6);">Vi gjennomgår resultatet sammen og gir deg en vedlikeholdsplan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA SECTION ===== -->
+<section class="py-28 lg:py-40" style="background: var(--color-grove, oklch(0.30 0.04 160));">
+  <div class="wrap text-center">
+    <span class="eyebrow block mb-6" style="color: oklch(1 0 0 / 0.3);" data-fade>Ta kontakt</span>
+    <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mx-auto max-w-[36rem]" style="color: oklch(1 0 0 / 0.9);" data-text-reveal>
+      <span class="line-reveal"><span>Få et uforpliktende</span></span>
+      <span class="line-reveal"><span>tilbud</span></span>
+    </h2>
+    <p class="text-base md:text-lg font-light mt-8 max-w-[30rem] mx-auto leading-relaxed" style="color: oklch(1 0 0 / 0.6);" data-fade>
+      Vi hjelper deg gjerne med ditt neste uteprosjekt. Send oss en e-post eller ring for en uforpliktende prat.
+    </p>
+    <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6" data-fade="0.1">
+      <a href="mailto:anlegg@mandalhage.no" class="btn" data-hover>
+        anlegg@mandalhage.no
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.2" style="margin-left: 0.5rem;">
+          <path d="M4 11L11 4M11 4H5M11 4V10"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+      <div class="md:col-span-4">
+        <img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" style="height: 100px; width: auto; opacity: 0.85;">
+        <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Hagesenter, anlegg og opplevelse i Mandal. Del av Hageland-kjeden.</p>
+        <p class="text-sm font-light mt-3" style="color: oklch(1 0 0 / 0.4);">Kvislakroken 1, 4515 Mandal</p>
+      </div>
+      <div class="md:col-span-2 md:col-start-7">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span>
+        <nav class="space-y-2 text-sm">
+          <a href="hagesenter.html" class="block" data-hover>Hagesenter</a>
+          <a href="hagedesign.html" class="block" data-hover>Hagedesign</a>
+          <a href="hagemobler.html" class="block" data-hover>Hagemøbler</a>
+          <a href="anlegg.html" class="block" data-hover>Anlegg</a>
+        </nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span>
+        <nav class="space-y-2 text-sm">
+          <a href="kafe.html" class="block" data-hover>Kafé</a>
+          <a href="om-oss.html" class="block" data-hover>Om oss</a>
+        </nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span>
+        <nav class="space-y-2 text-sm">
+          <a href="#" target="_blank" rel="noopener" class="block" data-hover>Instagram</a>
+          <a href="#" target="_blank" rel="noopener" class="block" data-hover>Facebook</a>
+        </nav>
+      </div>
+    </div>
+    <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);">
+      <p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Mandal Hage og Anlegg</p>
+      <a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

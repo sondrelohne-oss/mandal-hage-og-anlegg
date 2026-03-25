@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="no" class="lenis">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oddernes kafé — Mandal Hage og Anlegg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js" defer></script>
+</head>
+<body class="grain">
+
+  <!-- NAV -->
+  <nav data-nav class="is-scrolled">
+    <div class="flex items-center justify-between max-w-[94rem] mx-auto">
+      <a href="/" class="nav-logo" data-hover><img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" class="nav-logo__white" height="32"><img src="assets/logo-dark.png" alt="Mandal Hage og Anlegg" class="nav-logo__dark" height="32"></a>
+      <div class="hidden lg:flex items-center gap-10">
+        <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
+        <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
+        <a href="anlegg.html" class="nav-link" data-hover>Anlegg</a>
+        <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
+        <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
+        <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
+      </div>
+      <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div data-mobile-menu>
+    <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
+    <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
+    <a href="anlegg.html" class="mobile-link">Anlegg</a>
+    <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
+    <a href="kafe.html" class="mobile-link">Kafé</a>
+    <a href="om-oss.html" class="mobile-link">Om oss</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <header class="relative" style="height: 50vh; min-height: 24rem;">
+    <div class="absolute inset-0 overflow-hidden" data-img-reveal>
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/e682e793-3773-49af-8eef-08d7e6c89419/IMG_20200529_100344.jpg"
+        alt="Oddernes kafé blant plantene"
+        class="img-cover absolute inset-0"
+      >
+      <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.13 0.01 70 / 0.7), transparent 60%);"></div>
+    </div>
+    <div class="wrap relative h-full flex flex-col justify-end pb-12 lg:pb-16">
+      <span class="eyebrow mb-4" data-fade>Mat &amp; drikke</span>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif" data-text-reveal>
+        <span class="line-reveal"><span>Oddernes kafé</span></span>
+      </h1>
+    </div>
+  </header>
+
+  <!-- INTRO -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <div class="grid md:grid-cols-12 gap-10 lg:gap-16">
+        <div class="md:col-span-4" data-fade>
+          <h2 class="font-serif text-2xl lg:text-3xl">Midt blant plantene</h2>
+        </div>
+        <div class="md:col-span-7 md:col-start-6" data-fade>
+          <p class="text-lg lg:text-xl font-light leading-relaxed">
+            Ferske bakevarer, påsmurt, varm suppe og mye annet godt. Kaféen tilbyr kvalitetskaffe i en plantefylt atmosfære med innendørs sitteplasser og utendørs terrasse.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="overflow-hidden aspect-[4/5]" data-img-reveal>
+          <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/3d40ee14-86fc-4ef9-8ec3-80f504ea708f/IMG_2129.jpg" alt="Gourmet matprodukter" class="img-cover" loading="lazy">
+        </div>
+        <div class="overflow-hidden aspect-[4/5]" data-img-reveal>
+          <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/6628df7b-e1ed-4ec9-9880-150186ee82c5/IMG_4693+kopi.jpg" alt="Kafé interiør" class="img-cover" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPENING HOURS -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <div class="max-w-[36rem] mx-auto text-center" data-fade>
+        <span class="eyebrow mb-6 block">Åpningstider kafé</span>
+        <div class="space-y-4 mt-8">
+          <div class="flex justify-between items-baseline border-b pb-4" style="border-color: oklch(1 0 0 / 0.08);">
+            <span class="text-lg font-light">Man – Fre</span>
+            <span class="font-serif text-lg">10 – 16</span>
+          </div>
+          <div class="flex justify-between items-baseline border-b pb-4" style="border-color: oklch(1 0 0 / 0.08);">
+            <span class="text-lg font-light">Lørdag</span>
+            <span class="font-serif text-lg">10 – 18</span>
+          </div>
+          <div class="flex justify-between items-baseline">
+            <span class="text-lg font-light">Søndag</span>
+            <span class="font-serif text-lg">12 – 18</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap text-center" data-fade>
+      <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl mb-6">Kom innom!</h2>
+      <p class="text-lg font-light max-w-[30rem] mx-auto leading-relaxed" style="opacity: 0.7;">
+        Mandal Hage og Anlegg<br>
+        Kvislakroken 1<br>
+        4515 Mandal
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-28 lg:py-40">
+    <div class="wrap">
+      <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+        <div class="md:col-span-4">
+          <img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" style="height: 100px; width: auto; opacity: 0.85;">
+          <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Hagesenter, anlegg og opplevelse i Mandal. Del av Hageland-kjeden.</p>
+        </div>
+        <div class="md:col-span-2 md:col-start-7"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span><nav class="space-y-2 text-sm"><a href="hagesenter.html" class="block" data-hover>Hagesenter</a><a href="hagedesign.html" class="block" data-hover>Hagedesign</a><a href="hagemobler.html" class="block" data-hover>Hagemøbler</a><a href="anlegg.html" class="block" data-hover>Anlegg</a></nav></div>
+        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span><nav class="space-y-2 text-sm"><a href="kafe.html" class="block" data-hover>Kafé</a><a href="gartnertips.html" class="block" data-hover>Gartnertips</a><a href="om-oss.html" class="block" data-hover>Om oss</a><a href="bedrift.html" class="block" data-hover>Bedrift</a></nav></div>
+        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span><nav class="space-y-2 text-sm"><a href="https://www.instagram.com/hagelandoddernes/" target="_blank" rel="noopener" class="block" data-hover>Instagram</a><a href="https://www.facebook.com/oddernesgartneri/" target="_blank" rel="noopener" class="block" data-hover>Facebook</a></nav></div>
+      </div>
+      <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);"><p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Mandal Hage og Anlegg AS</p><a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
