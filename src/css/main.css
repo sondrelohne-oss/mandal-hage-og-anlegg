@@ -212,9 +212,13 @@ html.lenis, html.lenis body { height: auto; }
   .nav-logo img { height: 120px; }
 }
 
-/* Always show white logo */
+/* Default: white logo */
 .nav-logo__white { opacity: 1; }
-.nav-logo__dark { display: none; }
+.nav-logo__dark { opacity: 0; position: absolute; }
+
+/* Scrolled: dark logo */
+[data-nav].is-scrolled .nav-logo__white { opacity: 0; position: absolute; }
+[data-nav].is-scrolled .nav-logo__dark { opacity: 1; position: static; }
 
 /* Hamburger inherits nav color */
 [data-menu-toggle] {

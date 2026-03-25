@@ -1371,7 +1371,16 @@ html.lenis, html.lenis body {
   opacity: 1;
 }
 .nav-logo__dark {
-  display: none;
+  opacity: 0;
+  position: absolute;
+}
+[data-nav].is-scrolled .nav-logo__white {
+  opacity: 0;
+  position: absolute;
+}
+[data-nav].is-scrolled .nav-logo__dark {
+  opacity: 1;
+  position: static;
 }
 [data-menu-toggle] {
   color: var(--nav-color-strong);
