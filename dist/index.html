@@ -17,11 +17,7 @@
 
 <!-- ===== LOADER ===== -->
 <div class="loader">
-  <div class="loader__text">
-    <span>M</span><span>a</span><span>n</span><span>d</span><span>a</span><span>l</span>
-    <span>&nbsp;</span>
-    <span>H</span><span>a</span><span>g</span><span>e</span>
-  </div>
+  <img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" style="height: 80px; width: auto; opacity: 0.9;">
   <div class="loader__bar">
     <div class="loader__bar-fill"></div>
   </div>
@@ -30,7 +26,7 @@
 <!-- ===== NAVBAR ===== -->
 <nav data-nav>
   <div class="flex items-center justify-between max-w-[94rem] mx-auto">
-    <a href="/" class="nav-logo" data-hover>Mandal Hage og Anlegg</a>
+    <a href="/" class="nav-logo" data-hover><img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" class="nav-logo__white" height="32"><img src="assets/logo-dark.png" alt="Mandal Hage og Anlegg" class="nav-logo__dark" height="32"></a>
     <div class="hidden lg:flex items-center gap-10">
       <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
       <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
@@ -60,7 +56,7 @@
 <!-- ===== HERO — SPLIT EDITORIAL ===== -->
 <section class="hero">
   <div class="hero__content">
-    <span class="eyebrow block mb-6" style="color: oklch(1 0 0 / 0.25);">Mandal — Powered by Hageland</span>
+    <span class="eyebrow block mb-3 lg:mb-6" style="color: oklch(1 0 0 / 0.25);">En del av Hageland-gruppen</span>
     <h1 class="hero__title" data-text-reveal>
       <span class="line-reveal"><span>Hage, anlegg</span></span>
       <span class="line-reveal"><span><em>og opplevelse</em></span></span>
@@ -216,7 +212,7 @@
 <!-- ===== HAGEDESIGN — FULL SPLIT ===== -->
 <section class="split split--reverse">
   <div class="split__media relative" data-img-reveal>
-    <img data-parallax="0.1" src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/cc33d794-aaee-4895-900d-8bdb8d75aaa1/Design+uten+navn+%284%29.png" alt="Inneplanter — hagedesign" class="img-cover absolute inset-0" loading="lazy">
+    <img data-parallax="0.1" src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710844019004-EMFTXQ1OM7DPV6KX7EVE/Lavendel.jpg" alt="Lavendel i hage — profesjonelt anlegg" class="img-cover absolute inset-0" loading="lazy">
   </div>
   <div class="split__body" style="background: var(--color-grove);">
     <span class="eyebrow" style="color: oklch(1 0 0 / 0.3);" data-fade>Hagedesign</span>
@@ -323,7 +319,8 @@
 <!-- ===== INFO ===== -->
 <section class="py-20 lg:py-28" style="background: var(--color-paper-warm); border-top: 1px solid oklch(0.22 0.005 50 / 0.05); border-bottom: 1px solid oklch(0.22 0.005 50 / 0.05);">
   <div class="wrap">
-    <div class="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-6">
+    <!-- Mobile: compact stacked | Desktop: 5 columns -->
+    <div class="hidden md:grid md:grid-cols-5 gap-6">
       <div data-fade>
         <span class="eyebrow block mb-4" style="color: var(--color-grove-mid);">Åpningstider</span>
         <div class="space-y-1.5 text-sm" style="color: var(--color-ink-light);">
@@ -343,34 +340,56 @@
       <div data-fade="0.16">
         <span class="eyebrow block mb-4" style="color: var(--color-grove-mid);">Kontakt</span>
         <div class="space-y-1.5 text-sm" style="color: var(--color-ink-light);">
-          <p><a href="tel:+47XXXXXXXX" data-hover>+47 XXX XX XXX</a></p>
+          <p><a href="tel:+4798204231" data-hover>+47 982 04 231</a></p>
           <p><a href="mailto:post@mandalhage.no" data-hover>post@mandalhage.no</a></p>
         </div>
       </div>
       <div data-fade="0.24">
         <span class="eyebrow block mb-4" style="color: var(--color-grove-mid);">Levering</span>
-        <p class="text-sm font-light" style="color: var(--color-ink-light);">Vi transporterer varer hjem til deg i Mandal og omegn.</p>
-        <a href="mailto:post@mandalhage.no" class="inline-flex items-center gap-1 text-sm mt-2" style="color: var(--color-grove-mid);" data-hover>Bestill levering</a>
+        <p class="text-sm font-light" style="color: var(--color-ink-light);">Vi transporterer varer hjem til deg.</p>
+        <a href="mailto:post@mandalhage.no" class="inline-flex items-center gap-1 text-sm mt-2" style="color: var(--color-grove-mid);" data-hover>Bestill</a>
       </div>
       <div data-fade="0.32">
         <span class="eyebrow block mb-4" style="color: var(--color-grove-mid);">Finn oss</span>
-        <address class="not-italic text-sm leading-relaxed" style="color: var(--color-ink-light);">
-          Kvislakroken 1<br>4515 Mandal
-        </address>
-        <a href="https://maps.google.com/?q=Kvislakroken+1+4515+Mandal" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-sm mt-2" style="color: var(--color-grove-mid);" data-hover>
-          Kart <svg width="10" height="10" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12L12 4M12 4H7M12 4v5"/></svg>
-        </a>
+        <address class="not-italic text-sm leading-relaxed" style="color: var(--color-ink-light);">Kvislakroken 1<br>4515 Mandal</address>
+        <a href="https://maps.google.com/?q=Kvislakroken+1+4515+Mandal" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-sm mt-2" style="color: var(--color-grove-mid);" data-hover>Kart <svg width="10" height="10" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12L12 4M12 4H7M12 4v5"/></svg></a>
+      </div>
+    </div>
+
+    <!-- Mobile: info layout -->
+    <div class="md:hidden space-y-8 text-sm" style="color: var(--color-ink-light);" data-fade>
+      <div class="flex gap-10">
+        <div class="flex-1">
+          <span class="eyebrow block mb-3" style="color: var(--color-grove-mid);">Butikk</span>
+          <p>Man–Fre <span class="font-medium" style="color: var(--color-ink);">09–19</span></p>
+          <p>Lørdag <span class="font-medium" style="color: var(--color-ink);">09–18</span></p>
+          <p>Søndag <span class="font-medium" style="color: var(--color-ink);">12–18</span></p>
+        </div>
+        <div class="flex-1">
+          <span class="eyebrow block mb-3" style="color: var(--color-grove-mid);">Kafé</span>
+          <p>Man–Fre <span class="font-medium" style="color: var(--color-ink);">10–16</span></p>
+          <p>Lørdag <span class="font-medium" style="color: var(--color-ink);">10–18</span></p>
+          <p>Søndag <span class="font-medium" style="color: var(--color-ink);">12–18</span></p>
+        </div>
+      </div>
+      <div style="border-top: 1px solid oklch(0.22 0.005 50 / 0.06); padding-top: 1rem;">
+        <span class="eyebrow block mb-3" style="color: var(--color-grove-mid);">Kontakt & levering</span>
+        <p><a href="tel:+4798204231">+47 982 04 231</a></p>
+        <p class="mt-1"><a href="mailto:post@mandalhage.no">post@mandalhage.no</a></p>
+        <p class="mt-3">Kvislakroken 1, 4515 Mandal · <a href="https://maps.google.com/?q=Kvislakroken+1+4515+Mandal" target="_blank" rel="noopener" style="color: var(--color-grove-mid);">Kart</a></p>
+        <p class="mt-1">Vi leverer hjem · <a href="mailto:post@mandalhage.no" style="color: var(--color-grove-mid);">Bestill levering</a></p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ===== FOOTER ===== -->
-<footer class="footer py-20 lg:py-28">
+<footer class="footer py-12 lg:py-28">
   <div class="wrap">
-    <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+    <!-- Desktop footer -->
+    <div class="hidden md:grid md:grid-cols-12 gap-6">
       <div class="md:col-span-4">
-        <p class="font-serif text-lg" style="color: oklch(1 0 0 / 0.85);">Mandal Hage og Anlegg</p>
+        <img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" style="height: 100px; width: auto; opacity: 0.85;">
         <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">
           Hagesenter, anlegg og opplevelse i Mandal. Del av Hageland-kjeden.
         </p>
@@ -401,7 +420,30 @@
         </nav>
       </div>
     </div>
-    <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);">
+
+    <!-- Mobile footer -->
+    <div class="md:hidden">
+      <img src="assets/logo-white.png" alt="Mandal Hage og Anlegg" style="height: 60px; width: auto; opacity: 0.85;">
+      <p class="text-sm leading-relaxed mt-4 font-light" style="color: oklch(1 0 0 / 0.4);">
+        Hagesenter, anlegg og opplevelse i Mandal. Del av Hageland-kjeden.
+      </p>
+      <nav class="flex flex-wrap gap-x-6 gap-y-2.5 mt-8 text-sm">
+        <a href="hagesenter.html">Hagesenter</a>
+        <a href="hagedesign.html">Hagedesign</a>
+        <a href="anlegg.html">Anlegg</a>
+        <a href="hagemobler.html">Hagemøbler</a>
+        <a href="kafe.html">Kafé</a>
+        <a href="gartnertips.html">Gartnertips</a>
+        <a href="om-oss.html">Om oss</a>
+        <a href="bedrift.html">Bedrift</a>
+      </nav>
+      <div class="flex gap-5 mt-6 text-sm">
+        <a href="https://www.instagram.com/hagelandoddernes/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/oddernesgartneri/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+
+    <div class="mt-8 lg:mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);">
       <p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Mandal Hage og Anlegg AS</p>
       <a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a>
     </div>

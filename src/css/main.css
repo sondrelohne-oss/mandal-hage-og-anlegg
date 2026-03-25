@@ -164,16 +164,17 @@ html.lenis, html.lenis body { height: auto; }
 }
 
 [data-nav].is-scrolled {
-  background: oklch(0.985 0.006 85 / 0.95);
-  backdrop-filter: blur(20px) saturate(1.15);
-  padding-bottom: 1.25rem;
   --nav-color: var(--color-ink-light);
   --nav-color-strong: var(--color-ink);
   --nav-color-hover: var(--color-grove);
 }
 
 @media (min-width: 1024px) {
-  [data-nav].is-scrolled { padding-bottom: 1.5rem; }
+  [data-nav].is-scrolled {
+    background: oklch(0.985 0.006 85 / 0.95);
+    backdrop-filter: blur(20px) saturate(1.15);
+    padding-bottom: 1.5rem;
+  }
 }
 
 .nav-link {
@@ -196,13 +197,28 @@ html.lenis, html.lenis body { height: auto; }
 }
 
 .nav-logo {
-  font-family: var(--font-serif);
-  font-size: 1.0625rem;
-  color: var(--nav-color-strong);
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  letter-spacing: -0.01em;
-  transition: color 0.3s ease;
 }
+
+.nav-logo img {
+  height: 90px;
+  width: auto;
+  transition: opacity 0.4s ease;
+}
+
+@media (min-width: 1024px) {
+  .nav-logo img { height: 120px; }
+}
+
+/* Default: show white, hide dark */
+.nav-logo__white { opacity: 1; }
+.nav-logo__dark { opacity: 0; position: absolute; }
+
+/* Scrolled: show dark, hide white */
+[data-nav].is-scrolled .nav-logo__white { opacity: 0; position: absolute; }
+[data-nav].is-scrolled .nav-logo__dark { opacity: 1; position: static; }
 
 /* Hamburger inherits nav color */
 [data-menu-toggle] {
@@ -271,10 +287,12 @@ html.lenis, html.lenis body { height: auto; }
   background: var(--color-grove);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: clamp(2rem, 5vw, 4rem);
-  padding-top: 6rem;
+  justify-content: flex-end;
+  padding: 2.5rem;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
   min-height: 45svh;
+  gap: 1.5rem;
   position: relative;
 }
 
