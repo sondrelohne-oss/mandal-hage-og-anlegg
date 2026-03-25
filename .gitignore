@@ -1,4 +1,14 @@
 node_modules/
-*.png
+ss-*.png
+sp-*.png
+nav-*.png
+nav2-*.png
+mob-*.png
+mobile-*.png
+tablet-*.png
+verify-*.png
+gap-*.png
+mandal-*.png
+screenshot-*.png
 .DS_Store
 Thumbs.db
