@@ -1,9 +1,15 @@
-# Oddernes Gartneri — Website Redesign
+# Mandal Hage og Anlegg — Website
 
 ## Project Overview
-Premium website for Oddernes Gartneri, Southern Norway's largest garden center (Hageland chain). Family-owned since 1930, 4th generation. Kristiansand.
+Premium website for Mandal Hage og Anlegg — a new garden center concept in Mandal (Lindesnes). Combines Hageland chain affiliation with local landscaping expertise. Powered by Hageland, driven locally by the Lohne family.
 
-**Philosophy: Oddernes is a DESTINATION, not just a shop.**
+**Philosophy: More than a garden center — hagesenter + anlegg + opplevelse.**
+
+## Key Differentiators from Oddernes
+- **Anleggstjenester** — professional landscaping (unique selling point)
+- **Takhage** — rooftop garden for display and experience
+- **New concept** — forward-looking tone, not heritage
+- **Team**: Even Lohne (20+ yrs landscaping) + Sondre Lohne (digital/business)
 
 ## Tech Stack
 - HTML — Static pages, no framework
@@ -12,68 +18,26 @@ Premium website for Oddernes Gartneri, Southern Norway's largest garden center (
 - Lenis — Smooth scroll
 - Vanilla JS
 
-## Design References
-1. **Petersham Nurseries** — serif typography, deep green, extreme restraint, destination positioning
-2. **Ferm Living** — warm off-white (#faf8f5), charcoal text (#383838), room-based navigation
-3. **Terrain by Anthropologie** — editorial-first homepage, seasonal stories, lifestyle photography
-4. **Aesop** — asymmetrical layouts, integrated education, calm animations
-5. **Kinfolk** — dramatic type scale contrast, consistent image ratios, asymmetric spacing
+## Pages (10)
+1. index.html — Homepage (split hero with vision render)
+2. hagesenter.html — Garden center
+3. hagedesign.html — Garden design (Even Lohne as lead)
+4. anlegg.html — **NEW** Landscaping services
+5. hagemobler.html — Garden furniture
+6. blomster.html — Flowers (Mandal Blomster)
+7. kafe.html — Café
+8. om-oss.html — About (Even + Sondre, Hageland partnership)
+9. gartnertips.html — Gardening tips/journal
+10. bedrift.html — B2B/corporate
 
-## Anti-AI Rules (NEVER break)
-- NO symmetric centered-everything layouts
-- NO Inter, Roboto, system fonts — we use Libre Baskerville + DM Sans
-- NO uniform card grids — vary sizes, break the grid deliberately
-- NO pure white backgrounds — always warm off-white (--color-paper)
-- NO pure black text — always charcoal (--color-ink)
-- NO rounded-full buttons with gradients
-- NO generic "Learn More" CTAs
-- NO even color distribution — neutral base, plants ARE the color
-- NO stock-photo heroes — editorial lifestyle imagery only
+## Contact Info
+- Address: Kvislakroken 1, 4515 Mandal
+- Email: post@mandalhage.no (placeholder)
+- Phone: placeholder
+- Domain: TBD
 
-## Typography System
-- **Serif (display)**: Libre Baskerville — heritage, editorial trust
-- **Sans (body/UI)**: DM Sans — clean, Scandinavian clarity
-- **Labels**: DM Sans, 11px, 500 weight, 0.14em tracking, uppercase
-- **Scale**: Dramatic contrast — large serif headings (clamp) vs refined body (16-18px)
-
-## Color System
-- **Paper**: warm off-white (oklch 0.985) — dominant
-- **Ink**: charcoal (oklch 0.22) — NOT black
-- **Green-deep**: #314540 Petersham green — nav, footer, accents
-- **Green-mid**: muted sage — labels, links
-- **Terra**: warm terracotta — sparingly, for warmth
-
-## Layout Principles
-- Asymmetric grids (7/5, 4/4/4, 4+7-offset)
-- Variable spacing between sections (rhythm through asymmetry)
-- Content blocks alternate: hero > editorial text > image grid > quote > journal
-- Generous whitespace — Kinfolk-level restraint
-- Consistent image aspect ratios per section (4:5 for cards, 4:3 for features)
-
-## Animation Philosophy
-- Gentle fade-in reveals (0.8s, translateY 1.5rem)
-- Image scale 1.03x on hover (not 1.1 — subtle)
-- Parallax only on hero/feature images
-- Ghost button line extends on hover
-- NO decorative bounce, NO flashy transitions
-
-## File Structure
-```
-oddernes-gartneri/
-├── dist/              # Built output + HTML pages
-│   ├── css/style.css
-│   ├── index.html
-│   └── [other pages].html
-├── src/
-│   ├── css/main.css   # Tailwind + design tokens
-│   ├── js/main.js     # GSAP, Lenis, interactions
-│   └── data/content.json
-├── CLAUDE.md
-└── package.json
-```
-
-## Content
-All scraped content in `src/data/content.json`. Use as source of truth.
+## Design System
+Identical to Oddernes Gartneri — Libre Baskerville + DM Sans, OKLCH tokens, grove green, warm off-white paper.
 
 ## Build
 - `npm run dev` — Tailwind watch

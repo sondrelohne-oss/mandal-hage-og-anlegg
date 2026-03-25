@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Om oss — Oddernes Gartneri</title>
+  <title>Om oss — Mandal Hage og Anlegg</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -14,182 +14,173 @@
 </head>
 <body class="grain">
 
-  <!-- NAV -->
-  <nav data-nav class="is-scrolled">
-    <div class="flex items-center justify-between max-w-[94rem] mx-auto">
-      <a href="/" class="nav-logo" data-hover>Oddernes Gartneri</a>
-      <div class="hidden lg:flex items-center gap-10">
-        <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
-        <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
-        <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
-        <a href="blomster.html" class="nav-link" data-hover>Blomster</a>
-        <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
-        <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
-      </div>
-      <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
-      </button>
+<!-- ===== NAVBAR ===== -->
+<nav data-nav class="is-scrolled">
+  <div class="flex items-center justify-between max-w-[94rem] mx-auto">
+    <a href="/" class="nav-logo" data-hover>Mandal Hage og Anlegg</a>
+    <div class="hidden lg:flex items-center gap-10">
+      <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
+      <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
+      <a href="anlegg.html" class="nav-link" data-hover>Anlegg</a>
+      <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
+      <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
+      <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
     </div>
-  </nav>
-  <div data-mobile-menu>
-    <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
-    <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
-    <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
-    <a href="blomster.html" class="mobile-link">Blomster</a>
-    <a href="kafe.html" class="mobile-link">Kafé</a>
-    <a href="om-oss.html" class="mobile-link">Om oss</a>
+    <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+    </button>
   </div>
+</nav>
+<div data-mobile-menu>
+  <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
+  <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
+  <a href="anlegg.html" class="mobile-link">Anlegg</a>
+  <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
+  <a href="kafe.html" class="mobile-link">Kafé</a>
+  <a href="om-oss.html" class="mobile-link">Om oss</a>
+</div>
 
-  <!-- PAGE HEADER -->
-  <header class="pt-40 lg:pt-52 pb-20 lg:pb-28">
-    <div class="wrap text-center">
-      <span class="eyebrow" data-fade>Siden 1930</span>
-      <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif mt-5 max-w-[48rem] mx-auto" data-text-reveal>
-        <span class="line-reveal"><span>Et hagesenter som gjør mer</span></span>
-        <span class="line-reveal"><span>enn å selge planter</span></span>
-      </h1>
-    </div>
-  </header>
+<!-- ===== PAGE HEADER ===== -->
+<header class="pt-40 lg:pt-52 pb-20 lg:pb-28">
+  <div class="wrap text-center">
+    <span class="eyebrow" data-fade>Hvem vi er</span>
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif mt-5 max-w-[48rem] mx-auto" data-text-reveal>
+      <span class="line-reveal"><span>Mandals nye grønne</span></span>
+      <span class="line-reveal"><span>destinasjon</span></span>
+    </h1>
+  </div>
+</header>
 
-  <!-- HISTORY -->
-  <section class="py-28 lg:py-40">
-    <div class="wrap">
-      <div class="grid md:grid-cols-12 gap-10 lg:gap-16">
-        <div class="md:col-span-3" data-fade>
-          <span class="eyebrow">Vår historie</span>
-        </div>
-        <div class="md:col-span-7 md:col-start-5" data-fade>
-          <p class="text-lg lg:text-xl font-light leading-relaxed">
-            Oddernes Gartneri sin historie strekker seg tilbake til 1930 da Eilert Røsstad kjøpte gårdsdriften fra prestegården. Virksomheten har vært i Røsstad-familien siden den gang. Ledelsen gikk gjennom Eilerts sønn Kåre, deretter hans to sønner Kay og Ove. I dag er Oves sønn Helge daglig leder. Gartneriet er Norges nest største Hageland-butikk og Sørlandets største hagesenter.
-          </p>
-        </div>
+<!-- ===== VISION ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-16">
+      <div class="md:col-span-3" data-fade>
+        <span class="eyebrow">Vår visjon</span>
       </div>
-    </div>
-  </section>
-
-  <!-- MISSION QUOTE -->
-  <section class="py-28 lg:py-40">
-    <div class="wrap text-center">
-      <blockquote class="max-w-[50rem] mx-auto" data-fade>
-        <p class="font-serif italic text-2xl md:text-3xl lg:text-4xl leading-snug">
-          &laquo;Det skal alltid være en opplevelse å komme til vår butikk&raquo;
+      <div class="md:col-span-7 md:col-start-5" data-fade>
+        <p class="text-lg lg:text-xl font-light leading-relaxed">
+          Mandal Hage og Anlegg er et nytt hagesenter-konsept med alt du trenger for hage og uterom — pluss profesjonelle anleggstjenester. Vi kombinerer Hageland-kjedens sortiment og kompetanse med lokal kunnskap og en unik takhage som gjør hvert besøk til en opplevelse.
         </p>
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- FULL-WIDTH IMAGE -->
-  <section data-img-reveal>
-    <div class="wrap--wide">
-      <div class="relative aspect-[16/7] overflow-hidden rounded-lg">
-        <img
-          src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/e682e793-3773-49af-8eef-08d7e6c89419/IMG_20200529_100344.jpg"
-          alt="Oddernes Gartneri uteområde om sommeren"
-          class="img-cover absolute inset-0"
-        >
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="wrap--wide">
-      <div class="overflow-hidden aspect-[16/7]" data-img-reveal>
-        <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/1710152529344-HRMN7LC0VXBA033KEOOC/Inngangsparti.jpg" alt="Inngangspartiet til Oddernes Gartneri" class="img-cover" loading="lazy">
+<!-- ===== TAKHAGE IMAGE ===== -->
+<section>
+  <div class="wrap--wide">
+    <div class="overflow-hidden aspect-[16/7]" data-img-reveal>
+      <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/380259de-b6e2-4f5f-a4a2-2a3d2e3017dc/104136111_2837085223185790_557077500434405589_n.jpg" alt="Takhagen hos Mandal Hage og Anlegg" class="img-cover" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ===== HAGELAND PARTNERSHIP ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap text-center">
+    <span class="eyebrow block mb-6" data-fade>Del av Hageland</span>
+    <p class="font-light text-lg lg:text-xl leading-relaxed max-w-[48rem] mx-auto" data-fade>
+      Som del av Hageland-kjeden har vi tilgang til Norges beste innkjøpsnettverk, Mitt Hageland lojalitetsprogram og over 90 års gartnerikompetanse. Lokalt drevet med støtte fra Norges nest største Hageland-butikk — Oddernes Gartneri i Kristiansand.
+    </p>
+  </div>
+</section>
+
+<!-- ===== TEAM GRID ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="text-center mb-16" data-fade>
+      <span class="eyebrow">Teamet</span>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-16 max-w-[48rem] mx-auto" data-stagger>
+
+      <!-- Even Lohne -->
+      <div>
+        <p class="font-serif font-medium text-xl">Even Lohne</p>
+        <p class="eyebrow mt-2" style="opacity: 0.5;">Initiativtaker & faglig leder</p>
+        <ul class="mt-5 space-y-2 text-sm font-light leading-relaxed" style="color: oklch(0.22 0.02 160 / 0.6);">
+          <li>Over 20 års erfaring i hage- og anleggsbransjen</li>
+          <li>Prosjektleder i Landskapsentreprenørene</li>
+          <li>Anleggsgartnerfaget — utøvende og prosjekterende</li>
+          <li>Erfaring fra tidligere hagesenterdrift i Mandal</li>
+        </ul>
+      </div>
+
+      <!-- Sondre Lohne -->
+      <div>
+        <p class="font-serif font-medium text-xl">Sondre Lohne</p>
+        <p class="eyebrow mt-2" style="opacity: 0.5;">Forretningsutvikling & digitalisering</p>
+        <ul class="mt-5 space-y-2 text-sm font-light leading-relaxed" style="color: oklch(0.22 0.02 160 / 0.6);">
+          <li>Byggingeniørutdanning fra UIA</li>
+          <li>Erfaring fra salg av byggevarer</li>
+          <li>IT, AI og grafisk design</li>
+          <li>3D-modellering, drone og digital markedsføring</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== LOCATION ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-16">
+      <div class="md:col-span-3" data-fade>
+        <span class="eyebrow">Finn oss</span>
+      </div>
+      <div class="md:col-span-7 md:col-start-5" data-fade>
+        <p class="font-serif text-2xl md:text-3xl leading-snug">
+          Kvislakroken 1, 4515 Mandal
+        </p>
+        <p class="text-base md:text-lg font-light leading-relaxed mt-6" style="color: oklch(0.22 0.02 160 / 0.6);">
+          Hovedinnfarten til Gismerøya industriområde — lett tilgjengelig for hele Mandal og omegn.
+        </p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- TEAM GRID -->
-  <section class="py-28 lg:py-40">
-    <div class="wrap">
-      <div class="text-center mb-16" data-fade>
-        <span class="eyebrow">Vårt team</span>
+<!-- ===== FOOTER ===== -->
+<footer class="footer py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+      <div class="md:col-span-4">
+        <p class="font-serif text-lg" style="color: oklch(1 0 0 / 0.85);">Mandal Hage og Anlegg</p>
+        <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Hagesenter, anlegg og opplevelse i Mandal. Del av Hageland-kjeden.</p>
+        <p class="text-sm font-light mt-3" style="color: oklch(1 0 0 / 0.4);">Kvislakroken 1, 4515 Mandal</p>
       </div>
-      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8" data-stagger>
-        <div>
-          <p class="font-serif font-medium text-lg">Helge Røsstad</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Eier og daglig leder</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Frøydis Andersen</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Butikksjef og gartner</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Mari Halvorsen</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">NK og markedsføring</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Trygve Høgdal</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Avdelingsleder hagemøbler</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Linda Brandsnes Nordaunet</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Leder blomsteravdeling</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Kate Rabeszko</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Hagedesign</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Maricel Jocelyn Dahle</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Kaféansvarlig</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Lisa D. Leirvik</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Dekoratør</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Katarzyna Motyka</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Gartner</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Merethe Wicklund</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Gartner</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Espen Hagemann Sørensen</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Hagemøbelselger</p>
-        </div>
-        <div>
-          <p class="font-serif font-medium text-lg">Stian Bye Andreassen</p>
-          <p class="eyebrow mt-1" style="opacity: 0.5;">Møbelselger</p>
-        </div>
+      <div class="md:col-span-2 md:col-start-7">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span>
+        <nav class="space-y-2 text-sm">
+          <a href="hagesenter.html" class="block" data-hover>Hagesenter</a>
+          <a href="hagedesign.html" class="block" data-hover>Hagedesign</a>
+          <a href="hagemobler.html" class="block" data-hover>Hagemøbler</a>
+          <a href="anlegg.html" class="block" data-hover>Anlegg</a>
+        </nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span>
+        <nav class="space-y-2 text-sm">
+          <a href="kafe.html" class="block" data-hover>Kafé</a>
+          <a href="om-oss.html" class="block" data-hover>Om oss</a>
+        </nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span>
+        <nav class="space-y-2 text-sm">
+          <a href="#" target="_blank" rel="noopener" class="block" data-hover>Instagram</a>
+          <a href="#" target="_blank" rel="noopener" class="block" data-hover>Facebook</a>
+        </nav>
       </div>
     </div>
-  </section>
-
-  <!-- ACTIVITIES -->
-  <section class="py-28 lg:py-40">
-    <div class="wrap">
-      <div class="grid md:grid-cols-12 gap-10 lg:gap-16">
-        <div class="md:col-span-3" data-fade>
-          <span class="eyebrow">Opplevelser</span>
-        </div>
-        <div class="md:col-span-7 md:col-start-5" data-fade>
-          <p class="text-lg lg:text-xl font-light leading-relaxed">
-            Gjennom hele året arrangerer vi aktiviteter og opplevelser for store og små. Ponniridning, ansiktsmaling og gratis is for barna — kurskveld og inspirerende foredrag for hageentusiastene. I desember forvandles gartneriet til en magisk juleeventyrverden som har blitt en kjær tradisjon for hele Sørlandet.
-          </p>
-        </div>
-      </div>
+    <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);">
+      <p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Mandal Hage og Anlegg</p>
+      <a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a>
     </div>
-  </section>
+  </div>
+</footer>
 
-  <!-- FOOTER -->
-  <footer class="footer py-28 lg:py-40">
-    <div class="wrap">
-      <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
-        <div class="md:col-span-4">
-          <p class="font-serif text-lg" style="color: oklch(1 0 0 / 0.85);">Oddernes Gartneri</p>
-          <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Sørlandets største hagesenter. Familieeid siden 1930 — nå i fjerde generasjon.</p>
-        </div>
-        <div class="md:col-span-2 md:col-start-7"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span><nav class="space-y-2 text-sm"><a href="hagesenter.html" class="block" data-hover>Hagesenter</a><a href="hagedesign.html" class="block" data-hover>Hagedesign</a><a href="hagemobler.html" class="block" data-hover>Hagemøbler</a><a href="blomster.html" class="block" data-hover>Blomster</a></nav></div>
-        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span><nav class="space-y-2 text-sm"><a href="kafe.html" class="block" data-hover>Kafé</a><a href="gartnertips.html" class="block" data-hover>Gartnertips</a><a href="om-oss.html" class="block" data-hover>Om oss</a><a href="bedrift.html" class="block" data-hover>Bedrift</a></nav></div>
-        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span><nav class="space-y-2 text-sm"><a href="https://www.instagram.com/hagelandoddernes/" target="_blank" rel="noopener" class="block" data-hover>Instagram</a><a href="https://www.facebook.com/oddernesgartneri/" target="_blank" rel="noopener" class="block" data-hover>Facebook</a></nav></div>
-      </div>
-      <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);"><p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Oddernes Gartneri AS</p><a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a></div>
-    </div>
-  </footer>
-
-  <script src="js/main.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

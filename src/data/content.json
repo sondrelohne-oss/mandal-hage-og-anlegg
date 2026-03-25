@@ -1,22 +1,22 @@
 {
   "site": {
-    "name": "Oddernes Gartneri",
+    "name": "Mandal Hage og Anlegg",
     "tagline": "Vi dyrker opplevelsen!",
-    "domain": "www.oddernesgartneri.no",
+    "domain": "www.mandalhage.no",
     "language": "no-NO",
-    "phone": "+47 380 90 202",
+    "phone": "+47 XXX XX XXX",
     "emails": {
-      "general": "post@oddernesgartneri.no",
-      "flowers": "bestilling@oddernesgartneri.no",
-      "owner": "helge@oddernesgartneri.no",
-      "gardenCenter": "froydis@oddernesgartneri.no",
-      "furniture": "trygve@oddernesgartneri.no",
-      "gardenDesign": "hagedesign@oddernesgartneri.no"
+      "general": "post@mandalhage.no",
+      "flowers": "bestilling@mandalhage.no",
+      "owner": "helge@mandalhage.no",
+      "gardenCenter": "froydis@mandalhage.no",
+      "furniture": "trygve@mandalhage.no",
+      "gardenDesign": "hagedesign@mandalhage.no"
     },
     "address": {
-      "street": "Bjørnebakken 1",
-      "zip": "4631",
-      "city": "Kristiansand"
+      "street": "Kvislakroken 1",
+      "zip": "4515",
+      "city": "Mandal"
     },
     "hours": {
       "weekdays": { "store": "09:00-19:00", "cafe": "10:00-16:00" },
@@ -30,7 +30,7 @@
   },
   "pages": {
     "home": {
-      "title": "Oddernes Gartneri",
+      "title": "Mandal Hage og Anlegg",
       "hero": {
         "heading": "Vi dyrker opplevelsen!",
         "features": [
@@ -104,16 +104,16 @@
     "omOss": {
       "title": "Om oss",
       "subtitle": "Et hagesenter som gjør mer enn å selge planter",
-      "history": "Oddernes Gartneri sin historie strekker seg tilbake til 1930 da Eilert Røsstad kjøpte gårdsdriften fra prestegården. Virksomheten har vært i Røsstad-familien siden den gang. Ledelsen gikk gjennom Eilerts sønn Kåre, deretter hans to sønner Kay og Ove. I dag er Oves sønn Helge daglig leder. Gartneriet er Norges nest største Hageland-butikk og Sørlandets største hagesenter.",
+      "history": "Mandal Hage og Anlegg sin historie strekker seg tilbake til 1930 da Eilert Røsstad kjøpte gårdsdriften fra prestegården. Virksomheten har vært i Røsstad-familien siden den gang. Ledelsen gikk gjennom Eilerts sønn Kåre, deretter hans to sønner Kay og Ove. I dag er Oves sønn Helge daglig leder. Gartneriet er Norges nest største Hageland-butikk og Sørlandets største hagesenter.",
       "mission": "Det skal alltid være en opplevelse å komme til vår butikk",
       "team": [
-        { "name": "Helge Røsstad", "role": "Eier og daglig leder", "email": "helge@oddernesgartneri.no" },
+        { "name": "Helge Røsstad", "role": "Eier og daglig leder", "email": "helge@mandalhage.no" },
         { "name": "Arnt Georg Henriksen", "role": "Regnskap" },
-        { "name": "Frøydis Andersen", "role": "Butikksjef og gartner", "email": "froydis@oddernesgartneri.no" },
-        { "name": "Mari Halvorsen", "role": "NK og markedsføring", "email": "mari@oddernesgartneri.no" },
-        { "name": "Trygve Høgdal", "role": "Avdelingsleder hagemøbler", "email": "trygve@oddernesgartneri.no" },
-        { "name": "Linda Brandsnes Nordaunet", "role": "Leder blomsteravdeling og Røsstad Blomster", "email": "linda@oddernesgartneri.no" },
-        { "name": "Kate Rabeszko", "role": "Hagedesign", "email": "hagedesign@oddernesgartneri.no" },
+        { "name": "Frøydis Andersen", "role": "Butikksjef og gartner", "email": "froydis@mandalhage.no" },
+        { "name": "Mari Halvorsen", "role": "NK og markedsføring", "email": "mari@mandalhage.no" },
+        { "name": "Trygve Høgdal", "role": "Avdelingsleder hagemøbler", "email": "trygve@mandalhage.no" },
+        { "name": "Linda Brandsnes Nordaunet", "role": "Leder blomsteravdeling og Røsstad Blomster", "email": "linda@mandalhage.no" },
+        { "name": "Kate Rabeszko", "role": "Hagedesign", "email": "hagedesign@mandalhage.no" },
         { "name": "Katarzyna Motyka", "role": "Gartner" },
         { "name": "Merethe Wicklund", "role": "Gartner" },
         { "name": "Ola Mir Ali", "role": "Gartner" },
