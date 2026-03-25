@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "Oddernes Gartneri",
+    "tagline": "Vi dyrker opplevelsen!",
+    "domain": "www.oddernesgartneri.no",
+    "language": "no-NO",
+    "phone": "+47 380 90 202",
+    "emails": {
+      "general": "post@oddernesgartneri.no",
+      "flowers": "bestilling@oddernesgartneri.no",
+      "owner": "helge@oddernesgartneri.no",
+      "gardenCenter": "froydis@oddernesgartneri.no",
+      "furniture": "trygve@oddernesgartneri.no",
+      "gardenDesign": "hagedesign@oddernesgartneri.no"
+    },
+    "address": {
+      "street": "Bjørnebakken 1",
+      "zip": "4631",
+      "city": "Kristiansand"
+    },
+    "hours": {
+      "weekdays": { "store": "09:00-19:00", "cafe": "10:00-16:00" },
+      "saturday": { "store": "09:00-18:00", "cafe": "10:00-18:00" },
+      "sunday": { "store": "12:00-18:00", "cafe": "12:00-18:00" }
+    },
+    "social": {
+      "instagram": "https://www.instagram.com/hagelandoddernes/",
+      "facebook": "https://www.facebook.com/oddernesgartneri/"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Oddernes Gartneri",
+      "hero": {
+        "heading": "Vi dyrker opplevelsen!",
+        "features": [
+          { "title": "Buketter og snittblomster", "link": "/snittblomster-og-buketter" },
+          { "title": "Nyhet! Hagedesign", "link": "/hagedesign" },
+          { "title": "Gartnertips", "link": "/gartnertips" }
+        ]
+      },
+      "banner": "Snart fylles hagesenteret med planter!",
+      "instagram": "Følg oss på Instagram!"
+    },
+    "hagesenter": {
+      "title": "Hagesenter og butikk",
+      "intro": "Som Sørlandets største hagesenter kan vi tilby det aller meste til hage og uterom. Ute i hagesenteret finner du alt fra norskproduserte sommerblomster til håndplukkede trær fra Italia. Vi har også et fantastisk utvalg i små og store krukker til din hage eller terrasse.\n\nInne har vi et stort utvalg inneplanter og innepotter, en egen snittavdeling, interiørvarer, gourmet matprodukter og ikke minst vår koselige kafé. Du finner i grunn det aller meste du trenger for å lage det hyggelig innendørs og utendørs hos oss!",
+      "categories": [
+        {
+          "title": "Uteplanter",
+          "description": "Vi har et enormt utvalg av forskjellige typer busker, trær, klatreplanter, stauder, urter og nyttevekster.",
+          "link": "/uteplanter"
+        },
+        {
+          "title": "Inneplanter",
+          "description": "Inneplanter skaper et levende, mer organisk hjem og gir bedre luft. Vi har et stort utvalg av både grønne og blomstrende inneplanter.",
+          "link": "/inneplanter"
+        },
+        {
+          "title": "Krukker",
+          "description": "Vi har Sørlandets største utvalg i utekrukker. Fra smått til stort i alle mulige farger og fasonger.",
+          "link": "/krukker"
+        },
+        {
+          "title": "Dyrking",
+          "description": "Å dyrke selv er gøy! Enten du dyrker i drivhus, i vinduskarmen eller på terrassen så finner du det du trenger hos oss."
+        },
+        {
+          "title": "Sesongplanter",
+          "description": "Sesongplanter følger årstidene og vi hjelper deg med å finne uteblomster etter sesong. Vi er stolte over å selge en mengde norskproduserte sommerblomster som holder høy kvalitet!"
+        },
+        {
+          "title": "Snittblomster og buketter",
+          "description": "Snittblomster og buketter skaper luksus i hverdagen og hva er vel hyggeligere enn å glede noen med en bukett? Utvalget følger årstidene. Våre blomsterdekoratører står klar til å hjelpe deg. Vi har blomster til alle livets faser og er store på sorgbinderi i Kristiansand.",
+          "link": "/snittblomster-og-buketter"
+        },
+        {
+          "title": "Innepotter og interiør",
+          "description": "Vi har et stort utvalg innepotter i alle størrelser og prisklasser. Vi er forhandler av blant annet Bergs, IB Laursen, Krifon, GUS Design, Elho og mange flere."
+        },
+        {
+          "title": "Gourmetavdeling",
+          "description": "I vår gourmetavdeling finner du nøye utvalgte matvarer fra små og store leverandører. Perfekte gaver til den som har alt!"
+        }
+      ]
+    },
+    "hagemobler": {
+      "title": "Hagemøbler",
+      "intro": "Hos oss får du kvalitet, utvalg og service!",
+      "showroom": "Over 1000 m² utstilling av hagemøbler. Våre dyktige kundeveiledere hjelper deg med å finne riktig møbel til din uteplass!",
+      "brands": ["Krifon", "Brafab", "LIFE", "Atleve", "Caneline", "Sundays"],
+      "categories": [
+        { "title": "Sofagrupper", "description": "Stort utvalg inkludert lounger og hjørnegrupper; materialer: aluminium, rotting, tau" },
+        { "title": "Spisegrupper", "description": "Store og små spisegrupper i ulike materialer og stiler" },
+        { "title": "Lenestoler", "description": "Lenestoler med og uten reclinerfunksjon" },
+        { "title": "Kafésett", "description": "Perfekt for små uterom" },
+        { "title": "Utekjøkken og grill", "description": "Utekjøkkenløsninger og Napoleon kvalitetsgriller" },
+        { "title": "Solsenger", "description": "Stort utvalg i alle prisklasser" },
+        { "title": "Møbeltrekk", "description": "Viktig beskyttelse; tilpassede trekk tilgjengelig" },
+        { "title": "Putekasser", "description": "Ulike størrelser og materialer" },
+        { "title": "Parasoller", "description": "Flere parasolltyper for skyggeløsninger" }
+      ]
+    },
+    "omOss": {
+      "title": "Om oss",
+      "subtitle": "Et hagesenter som gjør mer enn å selge planter",
+      "history": "Oddernes Gartneri sin historie strekker seg tilbake til 1930 da Eilert Røsstad kjøpte gårdsdriften fra prestegården. Virksomheten har vært i Røsstad-familien siden den gang. Ledelsen gikk gjennom Eilerts sønn Kåre, deretter hans to sønner Kay og Ove. I dag er Oves sønn Helge daglig leder. Gartneriet er Norges nest største Hageland-butikk og Sørlandets største hagesenter.",
+      "mission": "Det skal alltid være en opplevelse å komme til vår butikk",
+      "team": [
+        { "name": "Helge Røsstad", "role": "Eier og daglig leder", "email": "helge@oddernesgartneri.no" },
+        { "name": "Arnt Georg Henriksen", "role": "Regnskap" },
+        { "name": "Frøydis Andersen", "role": "Butikksjef og gartner", "email": "froydis@oddernesgartneri.no" },
+        { "name": "Mari Halvorsen", "role": "NK og markedsføring", "email": "mari@oddernesgartneri.no" },
+        { "name": "Trygve Høgdal", "role": "Avdelingsleder hagemøbler", "email": "trygve@oddernesgartneri.no" },
+        { "name": "Linda Brandsnes Nordaunet", "role": "Leder blomsteravdeling og Røsstad Blomster", "email": "linda@oddernesgartneri.no" },
+        { "name": "Kate Rabeszko", "role": "Hagedesign", "email": "hagedesign@oddernesgartneri.no" },
+        { "name": "Katarzyna Motyka", "role": "Gartner" },
+        { "name": "Merethe Wicklund", "role": "Gartner" },
+        { "name": "Ola Mir Ali", "role": "Gartner" },
+        { "name": "Lisa D. Leirvik", "role": "Dekoratør" },
+        { "name": "Martine Frustøl", "role": "Dekoratør" },
+        { "name": "Tiril Elisabeth Røsstad Skeie", "role": "Dekoratørlærling" },
+        { "name": "Sara Winsjansen", "role": "Butikkmedarbeider" },
+        { "name": "Gro Elisabeth Dahl Møretrø", "role": "Butikkmedarbeider" },
+        { "name": "Espen Hagemann Sørensen", "role": "Hagemøbelselger og sjåfør" },
+        { "name": "Stian Bye Andreassen", "role": "Møbelselger" },
+        { "name": "Maricel Jocelyn Dahle", "role": "Kaféansvarlig" },
+        { "name": "Wenche Thorsland Simonsen", "role": "Kafémedarbeider" },
+        { "name": "Karoline Pedersen Gravaas", "role": "Dekoratør (Røsstad Blomster)" },
+        { "name": "Stine Dahle Hegland", "role": "Dekoratør (Røsstad Blomster)" },
+        { "name": "Lotte Abera-Vatland", "role": "Dekoratør (Røsstad Blomster)" }
+      ]
+    },
+    "kafe": {
+      "title": "Oddernes kafé",
+      "description": "Ferske bakevarer, påsmurt, varm suppe og mye annet godt. Kaféen tilbyr kvalitetskaffe i en plantefylt atmosfære med innendørs sitteplasser og utendørs terrasse."
+    },
+    "hagedesign": {
+      "title": "Hagedesign",
+      "heading": "Vi hjelper deg med å oppfylle hagedrømmen",
+      "services": [
+        {
+          "title": "Befaring",
+          "description": "Alt begynner med en befaring. Vår hagedesigner og landskapsarkitekt kommer hjem til deg for å se på muligheter, lysforhold og alt annet de trenger vite for å starte planleggingen."
+        },
+        {
+          "title": "Hagedesign",
+          "description": "Vi tilbyr ulike pakker med hagedesign fra enkle skisser til detaljerte 3D-modeller og tekniske tegninger."
+        },
+        {
+          "title": "3D-modeller",
+          "description": "En 3D-modell gjør det lettere å visualisere hvordan uterommet vil bli seende ut. Den gjør det lettere å forstå romfølelsen, stemningen og helheten."
+        },
+        {
+          "title": "Planteplan",
+          "description": "En planteplan inneholder alle plantene som tilhører prosjektet. Viktig informasjon som plassering, stell, blomstringstid og størrelse kommer frem i planteplanen. Vår gartner sørger for å velge planter tilpasset lokasjonen."
+        }
+      ],
+      "team": [
+        {
+          "name": "Kate Rabeszko",
+          "role": "Gartner og hagedesigner",
+          "bio": "Gartner og hagedesigner med 15 års erfaring i Norge. Med en lidenskap for planter kan du være sikker på at plantene i ditt prosjekt vil være tilpasset dine behov og vekstforholdene i din hage."
+        },
+        {
+          "name": "Katarzyna Olowska",
+          "role": "Landskapsarkitekt",
+          "bio": "Landskapsarkitekt med teknisk kunnskap og lang erfaring. Lidenskapelig opptatt av hvordan grønne omgivelser kan gi både økt estetisk verdi og kanskje viktigst økt livskvalitet."
+        }
+      ],
+      "testimonials": [
+        "Jeg opplevde at de var veldig lydhøre for hvilke blomster og planter jeg liker, samt ovenfor egne ønsker og ideer om hvordan jeg kunne ønske meg idealhagen og -terrassen min. Kan absolutt varmt anbefal dem!",
+        "Terrassen min har blitt akkurat den lille oasen som var drømmen",
+        "Fikk så god hjelp i dag. Veldig gøy å møte noen som engasjerer seg så for hage og uteområder. Bli spennende å se veien videre nå!"
+      ],
+      "pricing": [
+        {
+          "title": "Alternativ 1: Idé og veiledning",
+          "price": "Fastpris: 5 990 kr",
+          "includes": [
+            "Én konsultasjon (online eller på stedet) inntil 1 time",
+            "Gjennomgang av ønsker og behov basert på eiendommens forutsetninger",
+            "Enkel skisse som viser design med foreslåtte soner, stil og atmosfære",
+            "Plante-/plantegruppeforslag (ikke spesifikk plassering/mengder)"
+          ]
+        },
+        {
+          "title": "Alternativ 2: Hagedesign og planteplan",
+          "price": "Fra 12 000 kr",
+          "includes": [
+            "Befaring eller onlinemøte (inntil 1 time)",
+            "Uteområdedesign tilpasset eiendom og ønsker/behov",
+            "Omfattende designplan",
+            "Detaljert planteplan",
+            "3D-visualisering som viser rom, atmosfære og stemning",
+            "Tekniske tegninger av utvalgte prosjektelementer"
+          ]
+        },
+        {
+          "title": "Alternativ 3: Planteplan for eksisterende uteområde",
+          "price": "Fra 4 990 kr",
+          "includes": [
+            "Befaring av eksisterende bed/terrasse med potter/uteområde",
+            "Planteplan med forslag for solforhold, eksisterende omgivelser, vedlikeholdsnivå",
+            "Konkret plan for direkte bruk ved planting",
+            "Begrenset til spesifikt område, ikke hele hagen"
+          ]
+        }
+      ]
+    },
+    "blomster": {
+      "title": "Snittblomster og buketter",
+      "services": [
+        "Tilpassede blomsterarrangementer for alle livets anledninger",
+        "Ferdige buketter tilgjengelig for umiddelbart kjøp",
+        "Velg-selv-blomster med binderiservice"
+      ],
+      "delivery": "Vi leverer i hele Kristiansand kommune",
+      "sorgbinderi": "Lang erfaring innen sorgbinderi. Levering i hele Kristiansand. Verdige avskjedsarrangementer etter kundens ønsker."
+    },
+    "bedrift": {
+      "title": "Bedrift",
+      "intro": "Vi har et fantastisk utvalg inneplanter, uteplanter, krukker og plantekasser...",
+      "subtitle": "Hos oss er det enkelt å handle som bedrift!",
+      "description": "Vi skreddersyr en pakkeløsning som passer akkurat deg"
+    },
+    "gartnertips": {
+      "title": "Gartnertips",
+      "articles": [
+        { "title": "Lettstelte grønnplanter", "summary": "Lettstelte grønnplanter som tåler lite lys", "date": "19.03.2024" },
+        { "title": "Hvilken hekk bør du velge?", "summary": "Velg hekkplanter etter funksjon — skjerming, innramming eller estetikk", "date": "19.03.2024" },
+        { "title": "Dette bør du vite før du setter i gang med hagen din!", "summary": "En liten ABC med ord og uttrykk du bør kjenne til som hageeier", "date": "19.03.2024" },
+        { "title": "Hage i krukke", "summary": "En guide til deg som ønsker en frodig krukkehage med flerårige planter", "date": "19.03.2024" },
+        { "title": "Stauder til hele hagen, hele sesongen!", "summary": "Flerårige blomsterplanter og design av staudebed for langvarig blomstring", "date": "19.03.2024" },
+        { "title": "Hagesesongen starter nå!", "summary": "De aller kaldeste vintermånedene er forbi, og de første spirene har begynt å titte frem", "date": "05.03.2024" },
+        { "title": "Våre beste stauder", "summary": "Anbefalinger for stauder med lang blomstringstid fra vår til høst", "date": "10.05.2023" }
+      ]
+    },
+    "jul": {
+      "title": "Jul",
+      "hero": "I jula er vi barnas Hageland",
+      "sections": [
+        {
+          "heading": "Skap minner som varer hele året",
+          "text": "I jula er vi barnas Hageland. Vi garanterer julestemning for små og store i vår julebutikk."
+        },
+        {
+          "heading": "Norges beste utvalg i kunstig juletre",
+          "text": "Hageland er kjent for sine flotte kunstige juletrær, designet av våre egne gartnere. Vi har flere testvinnere i vårt sortiment, i alle prisklasser. Vi hjelper deg gjerne med å finne ditt nye juletre! Og ønsker du et ekte juletre, har vi selvfølgelig flotte norskproduserte juletrær også."
+        },
+        {
+          "heading": "Si det med blomster",
+          "text": "Våre dyktige dekoratører lager de flotteste buketter og dekorasjoner, enten du skal pynte opp din egen stue eller gi en gave til noen du er glad i. Vi leverer i hele Kristiansand!"
+        }
+      ],
+      "quote": {
+        "text": "Jul er ikke en årstid. Det er en følelse.",
+        "author": "Edna Ferber"
+      }
+    }
+  }
+}

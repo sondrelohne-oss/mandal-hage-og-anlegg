@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="no" class="lenis">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blomster & buketter — Oddernes Gartneri</title>
+  <meta name="description" content="Snittblomster, buketter og blomsterarrangementer for alle anledninger. Røsstad Blomster hos Oddernes Gartneri, Kristiansand. Levering i hele kommunen.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js" defer></script>
+</head>
+<body class="grain">
+
+<!-- ===== NAVBAR ===== -->
+<nav data-nav class="is-scrolled">
+  <div class="flex items-center justify-between max-w-[94rem] mx-auto">
+    <a href="/" class="nav-logo" data-hover>Oddernes Gartneri</a>
+    <div class="hidden lg:flex items-center gap-10">
+      <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
+      <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
+      <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
+      <a href="blomster.html" class="nav-link" data-hover>Blomster</a>
+      <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
+      <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
+    </div>
+    <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+    </button>
+  </div>
+</nav>
+<div data-mobile-menu>
+  <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
+  <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
+  <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
+  <a href="blomster.html" class="mobile-link">Blomster</a>
+  <a href="kafe.html" class="mobile-link">Kafé</a>
+  <a href="om-oss.html" class="mobile-link">Om oss</a>
+</div>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="relative overflow-hidden" style="height: 50vh; min-height: 24rem;">
+  <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/d8cf5cfb-8b22-46a9-83c6-03fc3b3f9d8b/IMG_7443.JPEG" alt="Blomster og buketter" class="img-cover absolute inset-0" loading="eager" data-parallax="0.1">
+  <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.005 50 / 0.7) 0%, oklch(0.22 0.005 50 / 0.3) 50%, oklch(0.22 0.005 50 / 0.45) 100%);"></div>
+  <div class="wrap relative h-full flex flex-col justify-end pb-12 lg:pb-16" style="padding-top: 6rem;">
+    <span class="eyebrow" style="color: oklch(1 0 0 / 0.3);" data-fade>Røsstad Blomster</span>
+    <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-serif mt-3 leading-[1.05]" style="color: oklch(1 0 0 / 0.95);" data-text-reveal>
+      <span class="line-reveal"><span>Blomster &amp;</span></span>
+      <span class="line-reveal"><span>buketter</span></span>
+    </h1>
+    <p class="text-base lg:text-lg font-light mt-4 max-w-[28rem]" style="color: oklch(1 0 0 / 0.5);" data-fade="0.1">Røsstad Blomster</p>
+  </div>
+</section>
+
+<!-- ===== INTRO — SPLIT ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid lg:grid-cols-12 gap-6 items-start">
+      <div class="lg:col-span-4">
+        <h2 class="text-[clamp(2rem,3.5vw,3rem)] font-serif leading-[1.08]" data-text-reveal>
+          <span class="line-reveal"><span>Si det med</span></span>
+          <span class="line-reveal"><span>blomster</span></span>
+        </h2>
+      </div>
+      <div class="lg:col-span-6 lg:col-start-7 lg:pt-2">
+        <p class="text-lg lg:text-xl leading-[1.75] font-light" style="color: var(--color-ink-light);" data-fade>
+          Snittblomster og buketter skaper luksus i hverdagen. Våre blomsterdekoratører står klar til å hjelpe deg. Vi har blomster til alle livets faser.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="py-28 lg:py-40" style="border-top: 1px solid oklch(0.22 0.005 50 / 0.05);">
+  <div class="wrap" style="max-width: 56rem;">
+    <span class="eyebrow" style="color: var(--color-terra);" data-fade>Tjenester</span>
+    <h2 class="text-[clamp(1.5rem,2.5vw,2rem)] font-serif mt-2 mb-12 lg:mb-16" data-fade="0.05">Hva vi tilbyr</h2>
+
+    <div data-stagger>
+      <div class="py-8" style="border-top: 1px solid oklch(0.22 0.005 50 / 0.08);">
+        <div class="grid lg:grid-cols-12 gap-4 items-start">
+          <span class="text-[0.6875rem] font-medium tracking-[0.14em] uppercase lg:col-span-1" style="color: var(--color-ink-faint);">01</span>
+          <h3 class="text-lg font-serif lg:col-span-4">Tilpassede arrangementer</h3>
+          <p class="text-base leading-[1.75] font-light lg:col-span-7" style="color: var(--color-ink-light);">
+            Tilpassede blomsterarrangementer for alle livets anledninger. Bryllup, bursdager, jubileer eller en hverdagshilsen.
+          </p>
+        </div>
+      </div>
+      <div class="py-8" style="border-top: 1px solid oklch(0.22 0.005 50 / 0.08);">
+        <div class="grid lg:grid-cols-12 gap-4 items-start">
+          <span class="text-[0.6875rem] font-medium tracking-[0.14em] uppercase lg:col-span-1" style="color: var(--color-ink-faint);">02</span>
+          <h3 class="text-lg font-serif lg:col-span-4">Ferdige buketter</h3>
+          <p class="text-base leading-[1.75] font-light lg:col-span-7" style="color: var(--color-ink-light);">
+            Ferdige buketter tilgjengelig for umiddelbart kjøp. Alltid friske, alltid vakre. Perfekt for en spontan glede.
+          </p>
+        </div>
+      </div>
+      <div class="py-8" style="border-top: 1px solid oklch(0.22 0.005 50 / 0.08); border-bottom: 1px solid oklch(0.22 0.005 50 / 0.08);">
+        <div class="grid lg:grid-cols-12 gap-4 items-start">
+          <span class="text-[0.6875rem] font-medium tracking-[0.14em] uppercase lg:col-span-1" style="color: var(--color-ink-faint);">03</span>
+          <h3 class="text-lg font-serif lg:col-span-4">Velg-selv-blomster</h3>
+          <p class="text-base leading-[1.75] font-light lg:col-span-7" style="color: var(--color-ink-light);">
+            Velg-selv-blomster med binderiservice. Plukk dine favoritter, og la våre dekoratører sette dem sammen til en personlig bukett.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="overflow-hidden aspect-[16/7]" data-img-reveal>
+  <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/d8cf5cfb-8b22-46a9-83c6-03fc3b3f9d8b/IMG_7443.JPEG" alt="Blomsterarrangementer" class="img-cover" loading="lazy">
+</div>
+
+<!-- ===== SORGBINDERI — SPLIT (soft background) ===== -->
+<section class="split split--reverse">
+  <div class="split__media relative overflow-hidden" data-img-reveal>
+    <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/6628df7b-e1ed-4ec9-9880-150186ee82c5/IMG_4693+kopi.jpg" alt="Interiør med planter" class="img-cover absolute inset-0" loading="lazy">
+  </div>
+  <div class="split__body" style="background: var(--color-paper-warm);">
+    <span class="eyebrow" style="color: var(--color-ink-muted);" data-fade>Sorgbinderi</span>
+    <h2 class="text-[clamp(1.75rem,3.5vw,2.75rem)] font-serif mt-4 leading-[1.1]" data-text-reveal>
+      <span class="line-reveal"><span>Verdige</span></span>
+      <span class="line-reveal"><span>avskjeder</span></span>
+    </h2>
+    <p class="text-base leading-[1.75] mt-5 font-light" style="color: var(--color-ink-light); max-width: 28rem;" data-fade="0.1">
+      Lang erfaring innen sorgbinderi. Levering i hele Kristiansand. Verdige avskjedsarrangementer etter kundens ønsker.
+    </p>
+    <p class="text-sm mt-6 font-light" style="color: var(--color-ink-muted);" data-fade="0.2">
+      Ta kontakt for en personlig og diskret samtale om dine ønsker.
+    </p>
+  </div>
+</section>
+
+<!-- ===== DELIVERY ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap text-center" style="max-width: 50rem;">
+    <div class="rule mx-auto mb-8" data-fade></div>
+    <h2 class="text-[clamp(1.375rem,2.8vw,2rem)] font-serif leading-[1.45]" style="color: var(--color-ink-light);" data-text-reveal>
+      <span class="line-reveal"><span>Vi leverer i hele</span></span>
+      <span class="line-reveal"><span>Kristiansand kommune</span></span>
+    </h2>
+    <p class="text-sm mt-6 tracking-[0.06em]" style="color: var(--color-ink-muted);" data-fade>
+      Bestill blomster til levering samme dag eller planlegg fremover
+    </p>
+  </div>
+</section>
+
+<!-- ===== CONTACT CTA ===== -->
+<section class="py-28 lg:py-40" style="background: var(--color-paper-warm); border-top: 1px solid oklch(0.22 0.005 50 / 0.05);">
+  <div class="wrap">
+    <div class="grid lg:grid-cols-12 gap-10 items-start">
+      <div class="lg:col-span-5">
+        <span class="eyebrow" style="color: var(--color-terra);" data-fade>Bestill</span>
+        <h2 class="text-[clamp(2rem,3.5vw,3rem)] font-serif mt-4 leading-[1.08]" data-text-reveal>
+          <span class="line-reveal"><span>Ta kontakt</span></span>
+        </h2>
+        <p class="text-base leading-[1.8] mt-5 font-light" style="color: var(--color-ink-light);" data-fade="0.1">
+          Ring oss eller send en e-post for bestilling. Vi hjelper deg gjerne med å finne de rette blomstene.
+        </p>
+      </div>
+      <div class="lg:col-span-5 lg:col-start-8 lg:pt-4" data-fade="0.15">
+        <div class="space-y-6">
+          <div style="border-top: 1px solid oklch(0.22 0.005 50 / 0.08); padding-top: 1.25rem;">
+            <span class="eyebrow" style="color: var(--color-ink-faint);">Telefon</span>
+            <a href="tel:+4738090202" class="block text-lg font-serif mt-2" style="color: var(--color-ink);" data-hover>38 09 02 02</a>
+          </div>
+          <div style="border-top: 1px solid oklch(0.22 0.005 50 / 0.08); padding-top: 1.25rem;">
+            <span class="eyebrow" style="color: var(--color-ink-faint);">E-post</span>
+            <a href="mailto:bestilling@oddernesgartneri.no" class="block text-lg font-serif mt-2" style="color: var(--color-ink);" data-hover>bestilling@oddernesgartneri.no</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+      <div class="md:col-span-4">
+        <p class="font-serif text-lg" style="color: oklch(1 0 0 / 0.85);">Oddernes Gartneri</p>
+        <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Sørlandets største hagesenter. Familieeid siden 1930 — nå i fjerde generasjon.</p>
+      </div>
+      <div class="md:col-span-2 md:col-start-7">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span>
+        <nav class="space-y-2 text-sm"><a href="hagesenter.html" class="block" data-hover>Hagesenter</a><a href="hagedesign.html" class="block" data-hover>Hagedesign</a><a href="hagemobler.html" class="block" data-hover>Hagemøbler</a><a href="blomster.html" class="block" data-hover>Blomster</a></nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span>
+        <nav class="space-y-2 text-sm"><a href="kafe.html" class="block" data-hover>Kafé</a><a href="gartnertips.html" class="block" data-hover>Gartnertips</a><a href="om-oss.html" class="block" data-hover>Om oss</a><a href="bedrift.html" class="block" data-hover>Bedrift</a></nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span>
+        <nav class="space-y-2 text-sm"><a href="https://www.instagram.com/hagelandoddernes/" target="_blank" rel="noopener" class="block" data-hover>Instagram</a><a href="https://www.facebook.com/oddernesgartneri/" target="_blank" rel="noopener" class="block" data-hover>Facebook</a></nav>
+      </div>
+    </div>
+    <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);"><p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Oddernes Gartneri AS</p><a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a></div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

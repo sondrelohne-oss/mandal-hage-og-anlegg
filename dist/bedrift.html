@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="no" class="lenis">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bedrift — Oddernes Gartneri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js" defer></script>
+</head>
+<body class="grain">
+
+  <!-- NAV -->
+  <nav data-nav class="is-scrolled">
+    <div class="flex items-center justify-between max-w-[94rem] mx-auto">
+      <a href="/" class="nav-logo" data-hover>Oddernes Gartneri</a>
+      <div class="hidden lg:flex items-center gap-10">
+        <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
+        <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
+        <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
+        <a href="blomster.html" class="nav-link" data-hover>Blomster</a>
+        <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
+        <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
+      </div>
+      <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div data-mobile-menu>
+    <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
+    <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
+    <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
+    <a href="blomster.html" class="mobile-link">Blomster</a>
+    <a href="kafe.html" class="mobile-link">Kafé</a>
+    <a href="om-oss.html" class="mobile-link">Om oss</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <header class="pt-40 lg:pt-52">
+    <div class="wrap">
+      <span class="eyebrow" data-fade>For bedrifter</span>
+      <h1 class="text-display mt-4 max-w-[48rem]" data-text-reveal><span class="line-reveal"><span>Skreddersydde løsninger</span></span> <span class="line-reveal"><span>for din bedrift</span></span></h1>
+    </div>
+  </header>
+
+  <!-- INTRO -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <div class="grid md:grid-cols-12 gap-10 lg:gap-16">
+        <div class="md:col-span-5" data-fade>
+          <h2 class="font-serif text-2xl lg:text-3xl leading-snug">Enkelt å handle som bedrift</h2>
+        </div>
+        <div class="md:col-span-6 md:col-start-7" data-fade>
+          <p class="text-body font-light leading-relaxed">Vi har et fantastisk utvalg inneplanter, uteplanter, krukker og plantekasser. Vi skreddersyr en pakkeløsning som passer akkurat deg.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap--wide">
+      <div class="overflow-hidden aspect-[16/7]" data-img-reveal>
+        <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/cc33d794-aaee-4895-900d-8bdb8d75aaa1/Design+uten+navn+%284%29.png" alt="Inneplanter for bedrifter" class="img-cover" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <span class="eyebrow block mb-12" data-fade>Tjenester</span>
+      <div data-stagger>
+        <div class="py-8 lg:py-10" style="border-top: 1px solid oklch(1 0 0 / 0.08);">
+          <div class="grid md:grid-cols-12 gap-4 items-baseline">
+            <span class="md:col-span-1 text-sm font-light" style="color: oklch(1 0 0 / 0.3);">01</span>
+            <h3 class="md:col-span-11 font-serif text-xl lg:text-2xl">Inneplanter og uteplanter til kontor og fellesarealer</h3>
+          </div>
+        </div>
+        <div class="py-8 lg:py-10" style="border-top: 1px solid oklch(1 0 0 / 0.08);">
+          <div class="grid md:grid-cols-12 gap-4 items-baseline">
+            <span class="md:col-span-1 text-sm font-light" style="color: oklch(1 0 0 / 0.3);">02</span>
+            <h3 class="md:col-span-11 font-serif text-xl lg:text-2xl">Krukker og plantekasser i alle størrelser</h3>
+          </div>
+        </div>
+        <div class="py-8 lg:py-10" style="border-top: 1px solid oklch(1 0 0 / 0.08); border-bottom: 1px solid oklch(1 0 0 / 0.08);">
+          <div class="grid md:grid-cols-12 gap-4 items-baseline">
+            <span class="md:col-span-1 text-sm font-light" style="color: oklch(1 0 0 / 0.3);">03</span>
+            <h3 class="md:col-span-11 font-serif text-xl lg:text-2xl">Tilpassede leveringsavtaler</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap--wide py-16">
+    <div class="overflow-hidden aspect-[21/9]" data-img-reveal>
+      <img src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/3959d6ce-e4d3-43ea-a95c-a4ffe4fcd825/190733933_3140108206216822_2284859477092981421_n.jpg" alt="Krukker og plantekasser" class="img-cover" loading="lazy">
+    </div>
+  </div>
+
+  <!-- CONTACT INFO -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <span class="eyebrow block mb-12" data-fade>Kontakt oss</span>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16" data-stagger>
+        <div>
+          <p class="text-sm font-light mb-1" style="color: oklch(1 0 0 / 0.4);">Hagesenter</p>
+          <a href="mailto:froydis@oddernesgartneri.no" class="text-sm" data-hover>froydis@oddernesgartneri.no</a>
+        </div>
+        <div>
+          <p class="text-sm font-light mb-1" style="color: oklch(1 0 0 / 0.4);">Hagemøbler</p>
+          <a href="mailto:trygve@oddernesgartneri.no" class="text-sm" data-hover>trygve@oddernesgartneri.no</a>
+        </div>
+        <div>
+          <p class="text-sm font-light mb-1" style="color: oklch(1 0 0 / 0.4);">Blomster / bestilling</p>
+          <a href="mailto:bestilling@oddernesgartneri.no" class="text-sm" data-hover>bestilling@oddernesgartneri.no</a>
+        </div>
+        <div>
+          <p class="text-sm font-light mb-1" style="color: oklch(1 0 0 / 0.4);">Generelt</p>
+          <a href="mailto:post@oddernesgartneri.no" class="text-sm" data-hover>post@oddernesgartneri.no</a>
+        </div>
+        <div>
+          <p class="text-sm font-light mb-1" style="color: oklch(1 0 0 / 0.4);">Telefon</p>
+          <a href="tel:+4738090202" class="text-sm" data-hover>+47 380 90 202</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <div class="max-w-[40rem]">
+        <span class="eyebrow block mb-4" data-fade>Send oss en melding</span>
+        <h2 class="font-serif text-2xl lg:text-3xl leading-snug mb-12" data-fade>Vi svarer innen én arbeidsdag</h2>
+        <form action="#" method="POST" class="space-y-8" data-fade>
+          <div>
+            <label for="name" class="block text-sm font-light mb-2" style="color: oklch(1 0 0 / 0.5);">Navn</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+              class="w-full bg-transparent text-sm py-3 font-light outline-none"
+              style="border-bottom: 1px solid oklch(1 0 0 / 0.12); color: oklch(1 0 0 / 0.85);"
+              placeholder="Ditt navn"
+            >
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-light mb-2" style="color: oklch(1 0 0 / 0.5);">E-post</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="email"
+              class="w-full bg-transparent text-sm py-3 font-light outline-none"
+              style="border-bottom: 1px solid oklch(1 0 0 / 0.12); color: oklch(1 0 0 / 0.85);"
+              placeholder="din@epost.no"
+            >
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-light mb-2" style="color: oklch(1 0 0 / 0.5);">Melding</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              class="w-full bg-transparent text-sm py-3 font-light outline-none resize-none"
+              style="border-bottom: 1px solid oklch(1 0 0 / 0.12); color: oklch(1 0 0 / 0.85);"
+              placeholder="Fortell oss hva du trenger..."
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="inline-flex items-center gap-3 text-sm font-light py-3 px-8"
+            style="border: 1px solid oklch(1 0 0 / 0.15); border-radius: 9999px; color: oklch(1 0 0 / 0.85); transition: background 0.3s, color 0.3s;"
+            data-hover
+          >
+            Send melding
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADDRESS / MAP CTA -->
+  <section class="py-28 lg:py-40">
+    <div class="wrap">
+      <div class="text-center" data-fade>
+        <span class="eyebrow block mb-4">Besøk oss</span>
+        <p class="font-serif text-2xl lg:text-3xl mt-4">Bjørnebakken 1, 4631 Kristiansand</p>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Bj%C3%B8rnebakken+1%2C+4631+Kristiansand"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 text-sm font-light mt-8"
+          style="color: oklch(1 0 0 / 0.5);"
+          data-hover
+        >
+          Åpne i Google Maps
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-28 lg:py-40">
+    <div class="wrap">
+      <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+        <div class="md:col-span-4">
+          <p class="font-serif text-lg" style="color: oklch(1 0 0 / 0.85);">Oddernes Gartneri</p>
+          <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Sørlandets største hagesenter. Familieeid siden 1930 — nå i fjerde generasjon.</p>
+        </div>
+        <div class="md:col-span-2 md:col-start-7"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span><nav class="space-y-2 text-sm"><a href="hagesenter.html" class="block" data-hover>Hagesenter</a><a href="hagedesign.html" class="block" data-hover>Hagedesign</a><a href="hagemobler.html" class="block" data-hover>Hagemøbler</a><a href="blomster.html" class="block" data-hover>Blomster</a></nav></div>
+        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span><nav class="space-y-2 text-sm"><a href="kafe.html" class="block" data-hover>Kafé</a><a href="gartnertips.html" class="block" data-hover>Gartnertips</a><a href="om-oss.html" class="block" data-hover>Om oss</a><a href="bedrift.html" class="block" data-hover>Bedrift</a></nav></div>
+        <div class="md:col-span-2"><span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span><nav class="space-y-2 text-sm"><a href="https://www.instagram.com/hagelandoddernes/" target="_blank" rel="noopener" class="block" data-hover>Instagram</a><a href="https://www.facebook.com/oddernesgartneri/" target="_blank" rel="noopener" class="block" data-hover>Facebook</a></nav></div>
+      </div>
+      <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);"><p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Oddernes Gartneri AS</p><a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

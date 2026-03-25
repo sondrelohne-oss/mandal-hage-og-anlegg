@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="no" class="lenis">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hagesenter — Oddernes Gartneri</title>
+  <meta name="description" content="Sørlandets største hagesenter. Alt til hage og uterom — uteplanter, inneplanter, krukker, snittblomster og gourmet.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js" defer></script>
+</head>
+<body class="grain">
+
+<!-- ===== NAVBAR ===== -->
+<nav data-nav class="is-scrolled">
+  <div class="flex items-center justify-between max-w-[94rem] mx-auto">
+    <a href="/" class="nav-logo" data-hover>Oddernes Gartneri</a>
+    <div class="hidden lg:flex items-center gap-10">
+      <a href="hagesenter.html" class="nav-link" data-hover>Hagesenter</a>
+      <a href="hagedesign.html" class="nav-link" data-hover>Hagedesign</a>
+      <a href="hagemobler.html" class="nav-link" data-hover>Hagemøbler</a>
+      <a href="blomster.html" class="nav-link" data-hover>Blomster</a>
+      <a href="kafe.html" class="nav-link" data-hover>Kafé</a>
+      <a href="om-oss.html" class="nav-link" data-hover>Om oss</a>
+    </div>
+    <button data-menu-toggle class="lg:hidden p-2" aria-label="Meny" aria-expanded="false">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+        <line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+<div data-mobile-menu>
+  <a href="hagesenter.html" class="mobile-link">Hagesenter</a>
+  <a href="hagedesign.html" class="mobile-link">Hagedesign</a>
+  <a href="hagemobler.html" class="mobile-link">Hagemøbler</a>
+  <a href="blomster.html" class="mobile-link">Blomster</a>
+  <a href="kafe.html" class="mobile-link">Kafé</a>
+  <a href="om-oss.html" class="mobile-link">Om oss</a>
+</div>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="relative overflow-hidden" style="height: 50vh; min-height: 400px;">
+  <img
+    src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/0b9f24ed-7202-48ca-91e3-cc8664f83877/228843370_3196626947231614_8472331532559271044_n+%281%29.jpg"
+    alt="Oddernes Gartneri hagesenter"
+    class="img-cover"
+    data-img-reveal
+  >
+  <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.02 160 / 0.7) 0%, transparent 60%);"></div>
+  <div class="absolute bottom-0 left-0 right-0 pb-12 lg:pb-16">
+    <div class="wrap">
+      <span class="eyebrow block mb-4" style="color: oklch(1 0 0 / 0.6);" data-fade>Sørlandets største</span>
+      <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl" style="color: oklch(1 0 0 / 0.95);" data-fade="0.1">Hagesenter og butikk</h1>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTRO TEXT ===== -->
+<section class="py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+      <div class="md:col-span-4">
+        <h2 class="font-serif text-3xl md:text-4xl leading-tight" data-text-reveal>
+          <span class="line-reveal"><span>Alt til hage</span></span>
+          <span class="line-reveal"><span>og uterom</span></span>
+        </h2>
+      </div>
+      <div class="md:col-span-6 md:col-start-7">
+        <p class="text-base md:text-lg leading-relaxed font-light" style="color: var(--color-ink);" data-fade>
+          Som Sørlandets største hagesenter kan vi tilby det aller meste til hage og uterom. Ute i hagesenteret finner du alt fra norskproduserte sommerblomster til håndplukkede trær fra Italia. Vi har også et fantastisk utvalg i små og store krukker til din hage eller terrasse.
+        </p>
+        <p class="text-base md:text-lg leading-relaxed font-light mt-6" style="color: var(--color-ink);" data-fade="0.1">
+          Inne har vi et stort utvalg inneplanter og innepotter, en egen snittavdeling, interiørvarer, gourmet matprodukter og ikke minst vår koselige kafé.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATEGORIES GRID ===== -->
+<section class="py-28 lg:py-40" style="background: var(--color-paper);">
+  <div class="wrap">
+    <span class="eyebrow block mb-6" data-fade>Utforsk avdelingene</span>
+    <div class="grid md:grid-cols-12 gap-5 lg:gap-6" data-stagger>
+
+      <!-- Uteplanter -->
+      <a href="#" class="group md:col-span-7 relative overflow-hidden rounded-sm" style="aspect-ratio: 4/3;" data-hover>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/0b9f24ed-7202-48ca-91e3-cc8664f83877/228843370_3196626947231614_8472331532559271044_n+%281%29.jpg"
+          alt="Uteplanter"
+          class="img-cover transition-transform duration-700 group-hover:scale-[1.03]"
+        >
+        <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.02 160 / 0.65) 0%, transparent 55%);"></div>
+        <div class="absolute bottom-0 left-0 p-6 lg:p-8">
+          <span class="eyebrow block mb-2" style="color: oklch(1 0 0 / 0.5);">Avdeling</span>
+          <h3 class="font-serif text-2xl lg:text-3xl" style="color: oklch(1 0 0 / 0.95);">Uteplanter</h3>
+          <p class="text-sm font-light mt-2 max-w-[20rem]" style="color: oklch(1 0 0 / 0.7);">Fra norske sommerblomster til håndplukkede trær fra Italia.</p>
+        </div>
+      </a>
+
+      <!-- Inneplanter -->
+      <a href="#" class="group md:col-span-5 relative overflow-hidden rounded-sm" style="aspect-ratio: 3/4;" data-hover>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/cc33d794-aaee-4895-900d-8bdb8d75aaa1/Design+uten+navn+%284%29.png"
+          alt="Inneplanter"
+          class="img-cover transition-transform duration-700 group-hover:scale-[1.03]"
+        >
+        <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.02 160 / 0.65) 0%, transparent 55%);"></div>
+        <div class="absolute bottom-0 left-0 p-6 lg:p-8">
+          <span class="eyebrow block mb-2" style="color: oklch(1 0 0 / 0.5);">Avdeling</span>
+          <h3 class="font-serif text-2xl lg:text-3xl" style="color: oklch(1 0 0 / 0.95);">Inneplanter</h3>
+          <p class="text-sm font-light mt-2 max-w-[20rem]" style="color: oklch(1 0 0 / 0.7);">Stort utvalg inneplanter og innepotter til ethvert hjem.</p>
+        </div>
+      </a>
+
+      <!-- Krukker -->
+      <a href="#" class="group md:col-span-4 relative overflow-hidden rounded-sm" style="aspect-ratio: 4/5;" data-hover>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/3959d6ce-e4d3-43ea-a95c-a4ffe4fcd825/190733933_3140108206216822_2284859477092981421_n.jpg"
+          alt="Krukker"
+          class="img-cover transition-transform duration-700 group-hover:scale-[1.03]"
+        >
+        <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.02 160 / 0.65) 0%, transparent 55%);"></div>
+        <div class="absolute bottom-0 left-0 p-6 lg:p-8">
+          <span class="eyebrow block mb-2" style="color: oklch(1 0 0 / 0.5);">Avdeling</span>
+          <h3 class="font-serif text-xl lg:text-2xl" style="color: oklch(1 0 0 / 0.95);">Krukker</h3>
+          <p class="text-sm font-light mt-2 max-w-[18rem]" style="color: oklch(1 0 0 / 0.7);">Små og store krukker til hage og terrasse.</p>
+        </div>
+      </a>
+
+      <!-- Snittblomster -->
+      <a href="#" class="group md:col-span-4 relative overflow-hidden rounded-sm" style="aspect-ratio: 4/5;" data-hover>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/d8cf5cfb-8b22-46a9-83c6-03fc3b3f9d8b/IMG_7443.JPEG"
+          alt="Snittblomster"
+          class="img-cover transition-transform duration-700 group-hover:scale-[1.03]"
+        >
+        <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.02 160 / 0.65) 0%, transparent 55%);"></div>
+        <div class="absolute bottom-0 left-0 p-6 lg:p-8">
+          <span class="eyebrow block mb-2" style="color: oklch(1 0 0 / 0.5);">Avdeling</span>
+          <h3 class="font-serif text-xl lg:text-2xl" style="color: oklch(1 0 0 / 0.95);">Snittblomster</h3>
+          <p class="text-sm font-light mt-2 max-w-[18rem]" style="color: oklch(1 0 0 / 0.7);">Egen snittavdeling med friske buketter og arrangementer.</p>
+        </div>
+      </a>
+
+      <!-- Gourmet -->
+      <a href="#" class="group md:col-span-4 relative overflow-hidden rounded-sm" style="aspect-ratio: 4/5;" data-hover>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/65688140ff2d4644e336f64d/3d40ee14-86fc-4ef9-8ec3-80f504ea708f/IMG_2129.jpg"
+          alt="Gourmet"
+          class="img-cover transition-transform duration-700 group-hover:scale-[1.03]"
+        >
+        <div class="absolute inset-0" style="background: linear-gradient(to top, oklch(0.22 0.02 160 / 0.65) 0%, transparent 55%);"></div>
+        <div class="absolute bottom-0 left-0 p-6 lg:p-8">
+          <span class="eyebrow block mb-2" style="color: oklch(1 0 0 / 0.5);">Avdeling</span>
+          <h3 class="font-serif text-xl lg:text-2xl" style="color: oklch(1 0 0 / 0.95);">Gourmet</h3>
+          <p class="text-sm font-light mt-2 max-w-[18rem]" style="color: oklch(1 0 0 / 0.7);">Håndplukkede matprodukter og delikatesser.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer py-28 lg:py-40">
+  <div class="wrap">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-6">
+      <div class="md:col-span-4">
+        <p class="font-serif text-lg" style="color: oklch(1 0 0 / 0.85);">Oddernes Gartneri</p>
+        <p class="text-sm leading-relaxed mt-3 font-light max-w-[18rem]">Sørlandets største hagesenter. Familieeid siden 1930 — nå i fjerde generasjon.</p>
+      </div>
+      <div class="md:col-span-2 md:col-start-7">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Utforsk</span>
+        <nav class="space-y-2 text-sm">
+          <a href="hagesenter.html" class="block" data-hover>Hagesenter</a>
+          <a href="hagedesign.html" class="block" data-hover>Hagedesign</a>
+          <a href="hagemobler.html" class="block" data-hover>Hagemøbler</a>
+          <a href="blomster.html" class="block" data-hover>Blomster</a>
+        </nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Besøk</span>
+        <nav class="space-y-2 text-sm">
+          <a href="kafe.html" class="block" data-hover>Kafé</a>
+          <a href="gartnertips.html" class="block" data-hover>Gartnertips</a>
+          <a href="om-oss.html" class="block" data-hover>Om oss</a>
+          <a href="bedrift.html" class="block" data-hover>Bedrift</a>
+        </nav>
+      </div>
+      <div class="md:col-span-2">
+        <span class="eyebrow block mb-3" style="color: oklch(1 0 0 / 0.2);">Følg</span>
+        <nav class="space-y-2 text-sm">
+          <a href="https://www.instagram.com/hagelandoddernes/" target="_blank" rel="noopener" class="block" data-hover>Instagram</a>
+          <a href="https://www.facebook.com/oddernesgartneri/" target="_blank" rel="noopener" class="block" data-hover>Facebook</a>
+        </nav>
+      </div>
+    </div>
+    <div class="mt-12 pt-5 flex flex-col md:flex-row justify-between gap-3" style="border-top: 1px solid oklch(1 0 0 / 0.06);">
+      <p class="text-xs" style="color: oklch(1 0 0 / 0.2);">&copy; 2026 Oddernes Gartneri AS</p>
+      <a href="personvern.html" class="text-xs" style="color: oklch(1 0 0 / 0.2);" data-hover>Personvern</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
